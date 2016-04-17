@@ -1,0 +1,20 @@
+-cpu=rx600
+-lang=c
+-include="C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER"
+-include="C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER\i_src"
+-include="C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER"
+-include="C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER\i_src"
+-include="C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER"
+-include="C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER\i_src"
+-include="C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER"
+-include="C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src"
+-include="D:\HIT_U_phase_VER"
+-include="D:\HIT_U_phase_VER\i_src"
+-include="c:\renesas\PDG2_proj\beipin_207_2"
+-include="c:\renesas\PDG2_proj\beipin_207_2\i_src"
+-include="E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版"
+-include="E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版\i_src"
+-output=obj="E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版\HIT_U_phase_VER\Debug\HIT_vectorcontrol.obj"
+-debug
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版\HIT_U_phase_VER\HIT_vectorcontrol.c"
+-nologo

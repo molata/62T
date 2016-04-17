@@ -1,0 +1,8 @@
+-cpu=rx600
+-lang=c
+-include="E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版"
+-include="E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版\i_src"
+-output=obj="E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版\HIT_U_phase_VER\Debug\R_PG_SCI_C2.obj"
+-debug
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版\SCI\R_PG_SCI_C2.c"
+-nologo
