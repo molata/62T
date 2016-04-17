@@ -1,0 +1,8 @@
+-cpu=rx600
+-lang=c
+-include="C:\Renesas\PDG2_proj\U_phase_VER"
+-include="C:\Renesas\PDG2_proj\U_phase_VER\i_src"
+-output=obj="E:\rx_program\HIT_U_phase_VER\¸´¼þ (6) HIT_U_phase_VER\HIT_U_phase_VER\Debug\R_PG_Timer_GPT_U0_C1.obj"
+-debug
+"C:\Renesas\PDG2_proj\U_phase_VER\GPT\R_PG_Timer_GPT_U0_C1.c"
+-nologo

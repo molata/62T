@@ -1,0 +1,5 @@
+-cpu=rx600
+-lang=c
+-output=obj="D:\HIT_U_phase_VER\HIT_U_phase_VER\Release\HIT_alarmnew.obj"
+"D:\HIT_U_phase_VER\HIT_U_phase_VER\HIT_alarmnew.c"
+-nologo

@@ -1,0 +1,14 @@
+#ifndef HITGPTONC
+#define HITGPTONC
+#include "iodefine.h"
+void HIT_gpton()
+{
+	GPT0.GTONCR.BIT.OAE = 1;
+	GPT0.GTONCR.BIT.OBE = 1;
+	GPT1.GTONCR.BIT.OAE = 1;
+	GPT1.GTONCR.BIT.OBE = 1;
+	GPT2.GTONCR.BIT.OAE = 1;
+	GPT2.GTONCR.BIT.OBE = 1;	
+}
+
+#endif
