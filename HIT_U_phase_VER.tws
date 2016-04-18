@@ -8,16 +8,16 @@
 [BREAKPOINTS]
 [OPEN_WORKSPACE_FILES]
 "E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_cmt1intfunc.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\62TWithServo\HIT_U_phase_VER\HIT_current_pi.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\62TWithServo\HIT_U_phase_VER\HIT_DA_trans_fuc.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\62TWithServo\HIT_U_phase_VER\HIT_servoon.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\62TWithServo\HIT_U_phase_VER\resetprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_positioncontrol.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_servoon.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\resetprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" 
 [WORKSPACE_FILE_STATES]
-"E:\实验室资料\实验室项目\207项目\主控板调试\62TWithServo\HIT_U_phase_VER\HIT_DA_trans_fuc.c" 75 75 1212 434 0 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\62TWithServo\HIT_U_phase_VER\HIT_current_pi.c" -8 -30 1428 691 1 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\62TWithServo\HIT_U_phase_VER\HIT_servoon.c" 0 0 1428 691 0 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\62TWithServo\HIT_U_phase_VER\resetprg.c" 0 0 1428 691 0 0 
-"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_cmt1intfunc.c" 0 0 1428 691 0 1 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_cmt1intfunc.c" 75 75 1117 362 0 3 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_positioncontrol.c" 50 50 1117 362 0 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_servoon.c" -8 -30 1308 575 1 4 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\resetprg.c" 25 25 1188 362 0 1 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" 0 0 1184 358 0 0 
 [LOADED_PROJECTS]
 "HIT_U_phase_VER" 
 [END]

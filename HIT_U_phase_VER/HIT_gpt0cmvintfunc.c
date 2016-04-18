@@ -11,7 +11,16 @@ extern unsigned short HIT_tgr_d_val4;
 extern unsigned char HIT_pwm_mode_choose;
 extern char HIT_pos_count;
 extern char HIT_ready_go;
-
+/********************* 串口接收 **********************************/
+float fpPC_to_motor_angle = 0;    // 上位机发送给电机的角度指令
+float fpMotor_to_pc = 0;
+unsigned short usPC_to_motor_cmd = 0XFFFF;  // 上位机发送给电机的所有命令
+unsigned short usMotor_to_PC_angle = 0;    // 电机发送给上位机的查询角度
+short usCount = 0;
+unsigned short usMotor_angle = 0;
+extern  int HIT_enc_fin;
+unsigned short usMotor_pluse_count = 0;     // 计数脉冲，每500us请求发送一次数据， GPT的周期是25us
+unsigned char ucPluse_send = 0;            // 是否发送脉冲，
 //#pragma interrupt Gpt0CmVIntFunc(vect=178)
 char serial_receive(unsigned char * ucSerial_datas, unsigned int uiCount)
 {
@@ -37,7 +46,6 @@ void Gpt0CmVIntFunc()
 		HIT_tgr_a_val4= 500;
 		HIT_tgr_b_val4= 500;
 		HIT_tgr_d_val4= 500;*/
-//	PORT9.DDR.BIT.B4 = 1;
 	switch(HIT_pwm_mode_choose)	
 	{
 		case 1:
@@ -83,6 +91,68 @@ void Gpt0CmVIntFunc()
 		GPT2.GTONCR.WORD = 0X0000;
 		break;
 	}
+	if(ucPluse_send == 1)
+	{
+		ucPluse_send = 0;
+		PORT9.DR.BIT.B4 = 0x00;
+	}
+	if(ucPluse_send == 2)
+	{
+		
+		//serial_receive(&usPC_to_motor_cmd, 2);
+		SCI2.SSR.BIT.ORER = 0;   // 溢出标志量，清零
+		SCI2.SSR.BIT.FER = 0; 
+		SCI2.SCR.BIT.RE = 0X01;  // 手动接收使能
+		SCI2.SCR.BIT.RIE = 0X01; // 手动接收中断使能
+		
+		ucPluse_send = 0;
+	}
+	usMotor_pluse_count++;
+	if(usMotor_pluse_count > 19)
+	{
+		//usMotor_to_PC_angle = (unsigned short)HIT_enc_fin;
+		usCount++;
+		if(usCount >= 500)
+		{
+			usMotor_to_PC_angle++;	
+			usCount = 0;
+		}
+		//SCI2.TDR = usMotor_to_PC_angle && 0x00FF;
+		//SCI2.TDR = (usMotor_to_PC_angle && 0xFF00)>>8;
+		R_PG_SCI_StartSending_C2(&usMotor_to_PC_angle, 2);
+		PORT9.DR.BIT.B4 = 0X01;
+		ucPluse_send = 1;
+		usMotor_pluse_count = 0;
+		R_PG_SCI_StartReceiving_C2(&usPC_to_motor_cmd, 2);	
+		if(usPC_to_motor_cmd != 0x55AA)
+		{
+			fpPC_to_motor_angle = ((float)usPC_to_motor_cmd - 1800)/100;	
+		}
+	}
+/****
+	if(serial_receive(&usPC_to_motor_cmd, 2))
+	{
+		usCount++;
+		if(usCount >= 10000)
+		{
+			usMotor_angle++;
+			if(usMotor_angle > 20000)
+			{
+				usMotor_angle = 0;
+			}	
+			usCount = 0;
+		}
+		sMotor_to_PC_angle = (unsigned short)HIT_enc_fin;
+		R_PG_SCI_StartSending_C2(&usMotor_to_PC_angle, 2);
+	}***/
+/***
+	if(usPC_to_motor_cmd != 0xAAAA && usPC_to_motor_cmd != 0xFFFF && usPC_to_motor_cmd != 0xAAFF && usPC_to_motor_cmd != 0xFFAA)
+	{
+		fpPC_to_motor_angle = ((float)usPC_to_motor_cmd - 1800)/100;
+		usPC_to_motor_cmd = 0xFFFF;
+	}
+***/
+	SCI2.SCR.BIT.RE = 1;
 
 }
 

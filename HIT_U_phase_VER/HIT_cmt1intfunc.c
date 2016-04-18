@@ -67,17 +67,6 @@ int HIT_gyo_fin;
 int HIT_gyo_H;
 int HIT_gyo_L;
 char HIT_gyo_w_z[2] = {0};
-/********************* 串口接收 **********************************/
-float fpPC_to_motor_angle = 0;    // 上位机发送给电机的角度指令
-float fpMotor_to_pc = 0;
-unsigned short usPC_to_motor_cmd = 0XFFFF;  // 上位机发送给电机的所有命令
-unsigned short usMotor_to_PC_angle = 0;    // 电机发送给上位机的查询角度
-short usCount = 0;
-unsigned short usMotor_angle = 0;
-extern  int HIT_enc_fin;
-unsigned short usMotor_pluse_count = 0;     // 计数脉冲，每500us请求发送一次数据， GPT的周期是25us
-unsigned char ucPluse_send = 0;            // 是否发送脉冲，
-extern  int HIT_enc_fin;
 //#pragma interrupt Cmt3IntFunc(vect=169)
 void Cmt3IntFunc()//50us
 {
@@ -189,37 +178,6 @@ void Cmt3IntFunc()//50us
 		
 		
 	}
-/*********** 串口程序 **************/
-	if(ucPluse_send == 1)
-	{
-		R_PG_SCI_StartReceiving_C2(&usPC_to_motor_cmd, 2);	
-		if(usPC_to_motor_cmd != 0x55AA)
-		{
-			fpPC_to_motor_angle = ((float)usPC_to_motor_cmd - 1800)/100;	
-		}
-		SCI2.SCR.BIT.RE = 0X01;  // 手动接收使能
-		SCI2.SCR.BIT.RIE = 0X01; // 手动接收中断使能
-		ucPluse_send = 0;
-		PORT9.DR.BIT.B4 = 0x00;
-	}
-	usMotor_pluse_count++;
-	if(usMotor_pluse_count > 19)
-	{
-		//usMotor_to_PC_angle = (unsigned short)HIT_enc_fin;
-		usCount++;
-		if(usCount >= 500)
-		{
-			usMotor_to_PC_angle++;	
-			usCount = 0;
-		}
-		R_PG_SCI_StartSending_C2(&usMotor_to_PC_angle, 2);
-		PORT9.DR.BIT.B4 = 0X01;
-		ucPluse_send = 1;
-		usMotor_pluse_count = 0;
-		
-	}
-	SCI2.SCR.BIT.RE = 1;
-//	PORT9.DDR.BIT.B4 = 0;
 
 //	PORT3.DR.BIT.B1=0;
 //	PORT7.DR.BIT.B0=0;//modify 20131115
