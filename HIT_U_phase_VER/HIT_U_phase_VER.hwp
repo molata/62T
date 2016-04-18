@@ -3,15 +3,15 @@
 [DATABASE_VERSION]
 "2.8" 
 [PROJECT_DETAILS]
-"HIT_U_phase_VER" "E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER" "E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_U_phase_VER.hwp" "RX" "Renesas RX Standard" "Application" "RX600" "RX62T" 
+"HIT_U_phase_VER" "E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER" "E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_U_phase_VER.hwp" "RX" "Renesas RX Standard" "Application" "RX600" "RX62T" 
 [INFORMATION]
 "No project information available" 
 [TOOL_CHAIN]
 "Renesas RX Standard Toolchain" "1.2.0.0" 
 [CONFIGURATIONS]
-"Debug" "E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\Debug" 
-"Debug_RX600_E1_E20_SYSTEM" "E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\Debug_RX600_E1_E20_SYSTEM" 
-"Release" "E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\Release" 
+"Debug" "E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\Debug" 
+"Debug_RX600_E1_E20_SYSTEM" "E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\Debug_RX600_E1_E20_SYSTEM" 
+"Release" "E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\Release" 
 [BUILD_PHASES]
 "Renesas OptLinker" 1 
 "Renesas RX Assembler" 1 
@@ -117,97 +117,98 @@
 "Object file" "Renesas OptLinker" "Renesas RX Assembler" 
 "Object file" "Renesas OptLinker" "Renesas RX C/C++ Compiler" 
 [PROJECT_FILES]
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\CMT\R_PG_Timer_CMT_U0.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\CMT\R_PG_Timer_CMT_U1.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0_C0.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0_C1.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0_C2.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_2hundredto3hundredms.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_DA_out_fuc.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_intial_par" "User" "" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_intial_par.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_state.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBW_state.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_U_phase_VER.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_address.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_alarmnew.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_biaoding.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_check_table.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_check_table.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_check_table_ab.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_cmt0intfunc.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_cmt0intfunc.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_cmt1intfunc.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_common.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_controlsystem_servoon.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_current_pi.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_current_pi.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_gpt0cmvintfunc.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_hardwaresetup.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_hardwaresetup.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_highimp.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_identification.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_iocontrol.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_make_angle.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_make_angle.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_make_angleab.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_mechanicalpi.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_mechanicalpi.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_mode_10_bd.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_par_initial.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_par_initial.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_par_write_to_ee.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_parameter.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_positioncontrol.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_positioncontrol.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_read_sci_address.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_read_servo_state.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_send_ee_data.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_servo_on_first.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_servo_on_first.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_servofirst.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_servofirst.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_servoon.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_servoon.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_shouchaoqi.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_spacevectorcontrol.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_systemparameter.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_unittransfer.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_vectorcontrol.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_vectorcontrol.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_virtualphotoeletric.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_write_ee_addr.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_zeroto2hundredms.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\dbsct.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\resetprg.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\sbrk.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\RIIC\R_PG_I2C_C0.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\SCI\R_PG_SCI_C2.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\SYSTEM\R_PG_Clock.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_CMT.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_GPT.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_INTC.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_SCI.c" "User" "AddFromPDG" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\CMT\R_PG_Timer_CMT_U0.c" "User" "AddFromPDG" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\CMT\R_PG_Timer_CMT_U1.c" "User" "AddFromPDG" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0.c" "User" "AddFromPDG" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0_C0.c" "User" "AddFromPDG" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0_C1.c" "User" "AddFromPDG" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0_C2.c" "User" "AddFromPDG" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_2hundredto3hundredms.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_DA_out_fuc.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_intial_par" "User" "" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_intial_par.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_state.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBW_state.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_U_phase_VER.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_address.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_alarmnew.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_biaoding.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_check_table.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_check_table.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_check_table_ab.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_cmt0intfunc.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_cmt0intfunc.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_cmt1intfunc.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_common.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_common.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_controlsystem_servoon.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_current_pi.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_current_pi.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_hardwaresetup.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_hardwaresetup.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_highimp.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_identification.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_iocontrol.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_make_angle.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_make_angle.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_make_angleab.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_mechanicalpi.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_mechanicalpi.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_mode_10_bd.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_par_initial.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_par_initial.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_par_write_to_ee.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_parameter.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_positioncontrol.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_positioncontrol.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_read_sci_address.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_read_servo_state.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_send_ee_data.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_servo_on_first.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_servo_on_first.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_servofirst.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_servofirst.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_servoon.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_servoon.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_shouchaoqi.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_spacevectorcontrol.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_systemparameter.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_unittransfer.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_vectorcontrol.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_vectorcontrol.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_virtualphotoeletric.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_write_ee_addr.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_zeroto2hundredms.h" "User" "C header file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\dbsct.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\resetprg.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\sbrk.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" "User" "C source file" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\RIIC\R_PG_I2C_C0.c" "User" "AddFromPDG" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\SCI\R_PG_SCI_C2.c" "User" "AddFromPDG" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\SYSTEM\R_PG_Clock.c" "User" "AddFromPDG" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_CMT.c" "User" "AddFromPDG" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_GPT.c" "User" "AddFromPDG" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_INTC.c" "User" "AddFromPDG" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_SCI.c" "User" "AddFromPDG" 2 
 [FOLDER]
 "AddFromPDG" "AddFromPDG" 
 "C header file" "C header file" 
@@ -217,219 +218,219 @@
 [ON_DEMAND_COMPONENTS_LOADED]
 [SYNC_SESSION_NAMES]
 [SESSIONS]
-"DefaultSession" "E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\DefaultSession.hsf" 0 
-"SessionRX600_E1_E20_SYSTEM" "E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\SessionRX600_E1_E20_SYSTEM.hsf" 0 
+"DefaultSession" "E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\DefaultSession.hsf" 0 
+"SessionRX600_E1_E20_SYSTEM" "E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\SessionRX600_E1_E20_SYSTEM.hsf" 0 
 [GENERAL_DATA_SESSION_DefaultSession]
 [GENERAL_DATA_SESSION_SessionRX600_E1_E20_SYSTEM]
 [OPTIONS_Debug_Renesas OptLinker]
-"Single Shot" "0c480569fe891d10" 10 
+"Single Shot" "05f5c78cdb891d10" 10 
 [OPTIONS_Debug_Renesas RX Assembler]
 "Assembly source file" "0a3eecbf211bdc10" 9 
 "Linkage symbol file" "0a3eecbf211bdc10" 9 
 [OPTIONS_Debug_Renesas RX C/C++ Compiler]
-"C source file" "0a3eecbf211bdc10" 7 
-"C++ source file" "008c192576c6ec10" 6 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\CMT\R_PG_Timer_CMT_U0.c" "0f73a969fe891d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\CMT\R_PG_Timer_CMT_U1.c" "05400a69fe891d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0.c" "08444969fe891d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0_C0.c" "0c9c3869fe891d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0_C1.c" "0f029869fe891d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0_C2.c" "0287e869fe891d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "03191c08fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_DA_out_fuc.c" "0bba7c08fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "0015dc08fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "056f2d08fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "0e739d08fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "05b2fd08fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_intial_par.c" "0ce15e08fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_state.c" "0321be08fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBW_state.c" "0a501f08fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_U_phase_VER.c" "002d6f08fe891d10" 5 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_alarmnew.c" "0c88df08fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_check_table.c" "0ad84018fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_cmt0intfunc.c" "0118a018fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_cmt1intfunc.c" "0a2c0118fe891d10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "00f86118fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_current_pi.c" "090dc118fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "02213218fe891d10" 8 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "08ed8218fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "0274f218fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_hardwaresetup.c" "09a35318fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_iocontrol.c" "033ab318fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_make_angle.c" "09f61418fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_mechanicalpi.c" "0fb37418fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_mode_10_bd.c" "06f2d418fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_par_initial.c" "0b4d2518fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_par_write_to_ee.c" "03fe8518fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_positioncontrol.c" "0b90f518fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_read_sci_address.c" "016d4618fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_read_servo_state.c" "089ca618fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "0e590718fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "05986718fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "0cc7c718fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "03072818fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_send_ee_data.c" "08518818fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_servo_on_first.c" "02e7e818fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_servofirst.c" "0e435918fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_servoon.c" "0582b918fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_shouchaoqi.c" "0e961a18fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "04637a18fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_vectorcontrol.c" "0c05da18fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "05293b18fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "0be59b18fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_write_ee_addr.c" "0040fb18fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "08e15c18fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\dbsct.c" "0eaeac18fe891d10" 5 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" "06501d18fe891d10" 5 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\resetprg.c" "0ef17d18fe891d10" 5 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\sbrk.c" "0716dd18fe891d10" 5 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" "003a3e18fe891d10" 5 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\RIIC\R_PG_I2C_C0.c" "0c9daa69fe891d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\SCI\R_PG_SCI_C2.c" "08b55a69fe891d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\SYSTEM\R_PG_Clock.c" "0388d769fe891d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_CMT.c" "0e900b69fe891d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_GPT.c" "046d5b69fe891d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_INTC.c" "0660bb69fe891d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_SCI.c" "0bba0c69fe891d10" 4 
+"C source file" "0a3eecbf211bdc10" 5 
+"C++ source file" "008c192576c6ec10" 7 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\CMT\R_PG_Timer_CMT_U0.c" "04776741ca891d10" 3 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\CMT\R_PG_Timer_CMT_U1.c" "0508b741ca891d10" 3 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0.c" "04591741ca891d10" 3 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0_C0.c" "06d33641ca891d10" 3 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0_C1.c" "06f18641ca891d10" 3 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0_C2.c" "05adc641ca891d10" 3 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "0bafa631ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_DA_out_fuc.c" "0c300731ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "0a794731ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "09259731ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "08d0e731ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "078c2831ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_intial_par.c" "05c57831ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_state.c" "0471c831ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBW_state.c" "032d0931ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_U_phase_VER.c" "02d85931ca891d10" 4 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_alarmnew.c" "02f6a931ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_check_table.c" "01a2f931ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_cmt0intfunc.c" "01c04a31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_cmt1intfunc.c" "01ee8a31ca891d10" 6 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_common.c" "0279478cdb891d10" 5 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "05c6ea31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_current_pi.c" "05e43b31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "07e78b31ca891d10" 8 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "0706db31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "07242c31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_hardwaresetup.c" "09277c31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_iocontrol.c" "0945cc31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_make_angle.c" "09631d31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_mechanicalpi.c" "0af36d31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_mode_10_bd.c" "0cf6bd31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_par_initial.c" "0d870e31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_par_write_to_ee.c" "0da55e31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_positioncontrol.c" "0fa8ae31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_read_sci_address.c" "0049fe31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_read_servo_state.c" "03be4f31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "044f9f31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "046def31ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "048b3041ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "07f09041ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_send_ee_data.c" "09f3e041ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_servo_on_first.c" "0a843141ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_servofirst.c" "0df98141ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_servoon.c" "0ffcd141ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_shouchaoqi.c" "01003241ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "03038241ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_vectorcontrol.c" "0493d241ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "05242341ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "06b47341ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_write_ee_addr.c" "0560c341ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "058e0441ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\dbsct.c" "05ac5441ca891d10" 4 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" "063da441ca891d10" 4 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\resetprg.c" "08300541ca891d10" 4 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\sbrk.c" "085e4541ca891d10" 4 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" "087c9541ca891d10" 4 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\RIIC\R_PG_I2C_C0.c" "04d15841ca891d10" 3 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\SCI\R_PG_SCI_C2.c" "04b30841ca891d10" 3 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\SYSTEM\R_PG_Clock.c" "089ae541ca891d10" 3 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_CMT.c" "038d9841ca891d10" 3 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_GPT.c" "0054e841ca891d10" 3 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_INTC.c" "0e8d2941ca891d10" 3 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_SCI.c" "0cc67941ca891d10" 3 
 [OPTIONS_Debug_Renesas RX C/C++ Library Generator]
 "Single Shot" "0a3eecbf211bdc10" 1 
 [OPTIONS_Debug_Renesas RX Configurator]
-"Single Shot" "0c020c49fe891d10" 11 
+"Single Shot" "0279478cdb891d10" 11 
 [OPTIONS_Debug]
 "" 0 
 "[S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [V|VERSION|1] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|LANG|C] [B|RUNTIME|1] [B|CTYPE|0] [B|MATH|1] [B|MATHF|1] [B|STDARG|0] [B|STDIO|1] [B|STDLIB|1] [B|STRING|1] [B|IOS|0] [B|NEW|1] [B|COMPLEX|0] [B|CPPSTRING|0] [S|MODE|BUILD/CHANGED]" 1 
 "[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] [S|OUTPUTPATH|^"$(CONFIGDIR)^"] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|FINT_REGISTER|0]" 11 
 "[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|FINT_REGISTER|0]" 9 
-"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24]" 7 
-"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\Renesas\PDG2_proj\U_phase_VER^"|^"C:\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"c:\renesas\PDG2_proj\beipin_207_2^"|^"c:\renesas\PDG2_proj\beipin_207_2\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版\i_src^"]" 5 
-"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"c:\renesas\PDG2_proj\beipin_207_2^"|^"c:\renesas\PDG2_proj\beipin_207_2\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版\i_src^"]" 8 
-"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"c:\renesas\PDG2_proj\beipin_207_2^"|^"c:\renesas\PDG2_proj\beipin_207_2\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版\i_src^"]" 2 
-"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"c:\renesas\PDG2_proj\beipin_207_2^"|^"c:\renesas\PDG2_proj\beipin_207_2\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版\i_src^"]" 3 
-"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版\i_src^"]" 4 
+"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24]" 5 
+"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\Renesas\PDG2_proj\U_phase_VER^"|^"C:\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"c:\renesas\PDG2_proj\beipin_207_2^"|^"c:\renesas\PDG2_proj\beipin_207_2\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T\i_src^"]" 4 
+"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"c:\renesas\PDG2_proj\beipin_207_2^"|^"c:\renesas\PDG2_proj\beipin_207_2\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T\i_src^"]" 8 
+"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"c:\renesas\PDG2_proj\beipin_207_2^"|^"c:\renesas\PDG2_proj\beipin_207_2\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T\i_src^"]" 2 
+"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"c:\renesas\PDG2_proj\beipin_207_2^"|^"c:\renesas\PDG2_proj\beipin_207_2\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T\i_src^"]" 6 
+"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T\i_src^"]" 3 
 "[V|VERSION|1] [S|LANG|CPP] [B|SJIS|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DEBUG|1] [B|SIZE|1] [B|MAP|0] [I|INLINE|100] [I|LOOP|2] [S|MISRA2004|ALL] [S|MISRA2004RULEFILE|^"$(CONFIGDIR)\$(PROJECTNAME).rde^"] [S|CPU|RX600] [S|BASE|00000000=NONE] [I|PID|16]
-" 6 
+" 7 
 "[V|VERSION|6] [S|INPUTLIBRARY|^"C:\Renesas\PDG2\lib\RX62T\RX62T_library_LQFP_64.lib^"|^"D:\Renesas\PDG2\lib\RX62T\RX62T_library_LQFP_64.lib^"] [S|FORM|STYPE] [S|BYTE_COUNT_VALUE|FF] [B|DEBUG|1] [S|ROM|(D,R)|(D_1,R_1)|(D_2,R_2)] [S|CRC|NONE|DEFAULT|00000000] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [S|SHOW|METHODCUSTOM|] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] [I|SPACE|^"FF^"] [B|OPTIMIZE|0] [S|START|B_1,R_1,B_2,R_2,B,R,SU,SI(01000)|PResetPRG(0FFFC8000)|C_1,C_2,C,C$*,D_1,D_2,D,P,PIntPRG,W*,L(0FFFC8100)|FIXEDVECT(0FFFFFFD0)] [S|MEMORY|HIGH]" 10 
 [EXCLUDED_FILES_Debug]
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" 
 [LINKAGE_ORDER_Debug]
 [GENERAL_DATA_CONFIGURATION_Debug]
 [OPTIONS_Debug_RX600_E1_E20_SYSTEM_Renesas OptLinker]
-"Single Shot" "0a527c49fe891d10" 5 
+"Single Shot" "05f5c78cdb891d10" 5 
 [OPTIONS_Debug_RX600_E1_E20_SYSTEM_Renesas RX Assembler]
 "Assembly source file" "0a3eecbf211bdc10" 4 
 "Linkage symbol file" "0a3eecbf211bdc10" 4 
 [OPTIONS_Debug_RX600_E1_E20_SYSTEM_Renesas RX C/C++ Compiler]
 "C source file" "0a3eecbf211bdc10" 2 
 "C++ source file" "008c192576c6ec10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\CMT\R_PG_Timer_CMT_U0.c" "09620f39fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\CMT\R_PG_Timer_CMT_U1.c" "0c7ed049fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0.c" "04712d39fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0_C0.c" "0d129739fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0_C1.c" "0e496939fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0_C2.c" "02d74b39fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_DA_out_fuc.c" "025fbcddde96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "00ce68b06bebec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "00205cfc2f96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "00205cfc2f96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_intial_par.c" "0f8ef489bcb6ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_state.c" "00205cfc2f96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBW_state.c" "03ea11ca97a6ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_U_phase_VER.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_alarmnew.c" "04f3012ffb7bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_check_table.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_cmt0intfunc.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_cmt1intfunc.c" "0b818159f4581d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_current_pi.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "00d7aff8e2e30d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_hardwaresetup.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_iocontrol.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_make_angle.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_mechanicalpi.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_mode_10_bd.c" "029d27b77c1cec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_par_initial.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_par_write_to_ee.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_positioncontrol.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_read_sci_address.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_read_servo_state.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "02edc59e6486ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "07ab91307776ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "0f5747dcbb76ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "01d335dbab76ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_send_ee_data.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_servo_on_first.c" "0834db41715cdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_servofirst.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_servoon.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_shouchaoqi.c" "0b99e8f7ac3bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "00f917661a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_vectorcontrol.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "0fe34d321a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_write_ee_addr.c" "0b8fc3e11a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\dbsct.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\resetprg.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\sbrk.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\RIIC\R_PG_I2C_C0.c" "03199449fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\SCI\R_PG_SCI_C2.c" "0e18b249fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\SYSTEM\R_PG_Clock.c" "07bea539fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_CMT.c" "080a7649fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_GPT.c" "09315849fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_INTC.c" "0a682a49fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_SCI.c" "0c020c49fe891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\CMT\R_PG_Timer_CMT_U0.c" "0afbc201ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\CMT\R_PG_Timer_CMT_U1.c" "07699401ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0.c" "09c4f001ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0_C0.c" "028c8bf0ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0_C1.c" "0e775df0ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0_C2.c" "0be42ff0ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_DA_out_fuc.c" "025fbcddde96ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "00ce68b06bebec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "0118168f0a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "00205cfc2f96ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "00205cfc2f96ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_intial_par.c" "0f8ef489bcb6ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_state.c" "00205cfc2f96ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBW_state.c" "03ea11ca97a6ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_U_phase_VER.c" "0a3eecbf211bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_alarmnew.c" "04f3012ffb7bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_check_table.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_cmt0intfunc.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_cmt1intfunc.c" "0b818159f4581d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_common.c" "0279478cdb891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_current_pi.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "00d7aff8e2e30d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "0118168f0a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_hardwaresetup.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_iocontrol.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_make_angle.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_mechanicalpi.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_mode_10_bd.c" "029d27b77c1cec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_par_initial.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_par_write_to_ee.c" "0118168f0a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_positioncontrol.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_read_sci_address.c" "0118168f0a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_read_servo_state.c" "0118168f0a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "02edc59e6486ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "07ab91307776ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "0f5747dcbb76ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "01d335dbab76ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_send_ee_data.c" "0118168f0a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_servo_on_first.c" "0834db41715cdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_servofirst.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_servoon.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_shouchaoqi.c" "0b99e8f7ac3bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "00f917661a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_vectorcontrol.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "0fe34d321a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_write_ee_addr.c" "0b8fc3e11a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\dbsct.c" "0a3eecbf211bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" "0a3eecbf211bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\resetprg.c" "0a3eecbf211bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\sbrk.c" "0a3eecbf211bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" "0a3eecbf211bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\RIIC\R_PG_I2C_C0.c" "02b63801ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\SCI\R_PG_SCI_C2.c" "03646601ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\SYSTEM\R_PG_Clock.c" "033ab9f0ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_CMT.c" "0f140a01ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_GPT.c" "0e66db01ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_INTC.c" "0a61ad01ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_SCI.c" "09b37f01ca891d10" 2 
 [OPTIONS_Debug_RX600_E1_E20_SYSTEM_Renesas RX C/C++ Library Generator]
 "Single Shot" "0a3eecbf211bdc10" 1 
 [OPTIONS_Debug_RX600_E1_E20_SYSTEM_Renesas RX Configurator]
-"Single Shot" "0c020c49fe891d10" 6 
+"Single Shot" "0279478cdb891d10" 6 
 [OPTIONS_Debug_RX600_E1_E20_SYSTEM]
 "" 0 
 "[S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [V|VERSION|1] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|LANG|C] [B|RUNTIME|1] [B|CTYPE|0] [B|MATH|1] [B|MATHF|1] [B|STDARG|0] [B|STDIO|1] [B|STDLIB|1] [B|STRING|1] [B|IOS|0] [B|NEW|1] [B|COMPLEX|0] [B|CPPSTRING|0] [S|MODE|BUILD/CHANGED]" 1 
@@ -443,79 +444,80 @@
 [LINKAGE_ORDER_Debug_RX600_E1_E20_SYSTEM]
 [GENERAL_DATA_CONFIGURATION_Debug_RX600_E1_E20_SYSTEM]
 [OPTIONS_Release_Renesas OptLinker]
-"Single Shot" "0a527c49fe891d10" 5 
+"Single Shot" "05f5c78cdb891d10" 5 
 [OPTIONS_Release_Renesas RX Assembler]
 "Assembly source file" "0a3eecbf211bdc10" 4 
 "Linkage symbol file" "0a3eecbf211bdc10" 4 
 [OPTIONS_Release_Renesas RX C/C++ Compiler]
 "C source file" "0a3eecbf211bdc10" 2 
 "C++ source file" "008c192576c6ec10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\CMT\R_PG_Timer_CMT_U0.c" "09620f39fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\CMT\R_PG_Timer_CMT_U1.c" "0c7ed049fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0.c" "04712d39fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0_C0.c" "0d129739fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0_C1.c" "0e496939fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\GPT\R_PG_Timer_GPT_U0_C2.c" "02d74b39fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_DA_out_fuc.c" "025fbcddde96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "00ce68b06bebec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "00205cfc2f96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "00205cfc2f96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_intial_par.c" "0f8ef489bcb6ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBC_state.c" "00205cfc2f96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_OBW_state.c" "03ea11ca97a6ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_U_phase_VER.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_alarmnew.c" "04f3012ffb7bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_check_table.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_cmt0intfunc.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_cmt1intfunc.c" "0b818159f4581d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_current_pi.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "00d7aff8e2e30d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_hardwaresetup.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_iocontrol.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_make_angle.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_mechanicalpi.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_mode_10_bd.c" "029d27b77c1cec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_par_initial.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_par_write_to_ee.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_positioncontrol.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_read_sci_address.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_read_servo_state.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "02edc59e6486ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "07ab91307776ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "0f5747dcbb76ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "01d335dbab76ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_send_ee_data.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_servo_on_first.c" "0834db41715cdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_servofirst.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_servoon.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_shouchaoqi.c" "0b99e8f7ac3bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "00f917661a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_vectorcontrol.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "0fe34d321a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_write_ee_addr.c" "0b8fc3e11a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\dbsct.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\intprg.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\resetprg.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\sbrk.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\HIT_U_phase_VER\vecttbl.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\RIIC\R_PG_I2C_C0.c" "03199449fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\SCI\R_PG_SCI_C2.c" "0e18b249fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\SYSTEM\R_PG_Clock.c" "07bea539fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_CMT.c" "080a7649fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_GPT.c" "09315849fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_INTC.c" "0a682a49fe891d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\save1\62T演示版\i_src\Interrupt_SCI.c" "0c020c49fe891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\CMT\R_PG_Timer_CMT_U0.c" "0afbc201ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\CMT\R_PG_Timer_CMT_U1.c" "07699401ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0.c" "09c4f001ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0_C0.c" "028c8bf0ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0_C1.c" "0e775df0ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\GPT\R_PG_Timer_GPT_U0_C2.c" "0be42ff0ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_DA_out_fuc.c" "025fbcddde96ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "00ce68b06bebec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "0118168f0a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "00205cfc2f96ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "00205cfc2f96ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_intial_par.c" "0f8ef489bcb6ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBC_state.c" "00205cfc2f96ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_OBW_state.c" "03ea11ca97a6ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_U_phase_VER.c" "0a3eecbf211bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_alarmnew.c" "04f3012ffb7bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_check_table.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_cmt0intfunc.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_cmt1intfunc.c" "0b818159f4581d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_common.c" "0279478cdb891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_current_pi.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "00d7aff8e2e30d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "0118168f0a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_hardwaresetup.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_iocontrol.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_make_angle.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_mechanicalpi.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_mode_10_bd.c" "029d27b77c1cec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_par_initial.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_par_write_to_ee.c" "0118168f0a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_positioncontrol.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_read_sci_address.c" "0118168f0a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_read_servo_state.c" "0118168f0a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "02edc59e6486ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "07ab91307776ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "0f5747dcbb76ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "01d335dbab76ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_send_ee_data.c" "0118168f0a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_servo_on_first.c" "0834db41715cdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_servofirst.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_servoon.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_shouchaoqi.c" "0b99e8f7ac3bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "00f917661a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_vectorcontrol.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "0fe34d321a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_write_ee_addr.c" "0b8fc3e11a21ec10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "07602193311bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\dbsct.c" "0a3eecbf211bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\intprg.c" "0a3eecbf211bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\resetprg.c" "0a3eecbf211bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\sbrk.c" "0a3eecbf211bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\HIT_U_phase_VER\vecttbl.c" "0a3eecbf211bdc10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\RIIC\R_PG_I2C_C0.c" "02b63801ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\SCI\R_PG_SCI_C2.c" "03646601ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\SYSTEM\R_PG_Clock.c" "033ab9f0ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_CMT.c" "0f140a01ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_GPT.c" "0e66db01ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_INTC.c" "0a61ad01ca891d10" 2 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\62T\i_src\Interrupt_SCI.c" "09b37f01ca891d10" 2 
 [OPTIONS_Release_Renesas RX C/C++ Library Generator]
 "Single Shot" "0a3eecbf211bdc10" 1 
 [OPTIONS_Release_Renesas RX Configurator]
-"Single Shot" "0c020c49fe891d10" 6 
+"Single Shot" "0279478cdb891d10" 6 
 [OPTIONS_Release]
 "" 0 
 "[S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [V|VERSION|1] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|LANG|C] [B|RUNTIME|1] [B|CTYPE|0] [B|MATH|1] [B|MATHF|1] [B|STDARG|0] [B|STDIO|1] [B|STDLIB|1] [B|STRING|1] [B|IOS|0] [B|NEW|1] [B|COMPLEX|0] [B|CPPSTRING|0] [S|MODE|BUILD/CHANGED]" 1 

@@ -11,16 +11,16 @@ extern unsigned short HIT_tgr_d_val4;
 extern unsigned char HIT_pwm_mode_choose;
 extern char HIT_pos_count;
 extern char HIT_ready_go;
-/********************* ´®¿Ú½ÓÊÕ **********************************/
-float fpPC_to_motor_angle = 0;    // ÉÏÎ»»ú·¢ËÍ¸øµç»úµÄ½Ç¶ÈÖ¸Áî
+/********************* ä¸²å£æ¥æ”¶ **********************************/
+float fpPC_to_motor_angle = 0;    // ä¸Šä½æœºå‘é€ç»™ç”µæœºçš„è§’åº¦æŒ‡ä»¤
 float fpMotor_to_pc = 0;
-unsigned short usPC_to_motor_cmd = 0XFFFF;  // ÉÏÎ»»ú·¢ËÍ¸øµç»úµÄËùÓĞÃüÁî
-unsigned short usMotor_to_PC_angle = 0;    // µç»ú·¢ËÍ¸øÉÏÎ»»úµÄ²éÑ¯½Ç¶È
+unsigned short usPC_to_motor_cmd = 0XFFFF;  // ä¸Šä½æœºå‘é€ç»™ç”µæœºçš„æ‰€æœ‰å‘½ä»¤
+unsigned short usMotor_to_PC_angle = 0;    // ç”µæœºå‘é€ç»™ä¸Šä½æœºçš„æŸ¥è¯¢è§’åº¦
 short usCount = 0;
 unsigned short usMotor_angle = 0;
 extern  int HIT_enc_fin;
-unsigned short usMotor_pluse_count = 0;     // ¼ÆÊıÂö³å£¬Ã¿500usÇëÇó·¢ËÍÒ»´ÎÊı¾İ£¬ GPTµÄÖÜÆÚÊÇ25us
-unsigned char ucPluse_send = 0;            // ÊÇ·ñ·¢ËÍÂö³å£¬
+unsigned short usMotor_pluse_count = 0;     // è®¡æ•°è„‰å†²ï¼Œæ¯500usè¯·æ±‚å‘é€ä¸€æ¬¡æ•°æ®ï¼Œ GPTçš„å‘¨æœŸæ˜¯25us
+unsigned char ucPluse_send = 0;            // æ˜¯å¦å‘é€è„‰å†²ï¼Œ
 //#pragma interrupt Gpt0CmVIntFunc(vect=178)
 char serial_receive(unsigned char * ucSerial_datas, unsigned int uiCount)
 {
@@ -93,17 +93,18 @@ void Gpt0CmVIntFunc()
 	}
 	if(ucPluse_send == 1)
 	{
-		ucPluse_send = 0;
-		PORT9.DR.BIT.B4 = 0x00;
+		ucPluse_send++;
+	
 	}
 	if(ucPluse_send == 2)
 	{
-		
+		PORT9.DR.BIT.B4 = 0x00;
 		//serial_receive(&usPC_to_motor_cmd, 2);
-		SCI2.SSR.BIT.ORER = 0;   // Òç³ö±êÖ¾Á¿£¬ÇåÁã
+		R_PG_SCI_StartReceiving_C2(&usPC_to_motor_cmd, 2);
+		SCI2.SSR.BIT.ORER = 0;   // æº¢å‡ºæ ‡å¿—é‡ï¼Œæ¸…é›¶
 		SCI2.SSR.BIT.FER = 0; 
-		SCI2.SCR.BIT.RE = 0X01;  // ÊÖ¶¯½ÓÊÕÊ¹ÄÜ
-		SCI2.SCR.BIT.RIE = 0X01; // ÊÖ¶¯½ÓÊÕÖĞ¶ÏÊ¹ÄÜ
+		SCI2.SCR.BIT.RE = 0X01;  // æ‰‹åŠ¨æ¥æ”¶ä½¿èƒ½
+		SCI2.SCR.BIT.RIE = 0X01; // æ‰‹åŠ¨æ¥æ”¶ä¸­æ–­ä½¿èƒ½
 		
 		ucPluse_send = 0;
 	}
@@ -123,11 +124,7 @@ void Gpt0CmVIntFunc()
 		PORT9.DR.BIT.B4 = 0X01;
 		ucPluse_send = 1;
 		usMotor_pluse_count = 0;
-		R_PG_SCI_StartReceiving_C2(&usPC_to_motor_cmd, 2);	
-		if(usPC_to_motor_cmd != 0x55AA)
-		{
-			fpPC_to_motor_angle = ((float)usPC_to_motor_cmd - 1800)/100;	
-		}
+		
 	}
 /****
 	if(serial_receive(&usPC_to_motor_cmd, 2))

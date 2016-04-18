@@ -1,8 +1,8 @@
 -cpu=rx600
 -lang=c
--include="E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版"
--include="E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版\i_src"
--output=obj="E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版\HIT_U_phase_VER\Debug\R_PG_Timer_GPT_U0_C1.obj"
+-include="E:\实验室资料\实验室项目\207项目\主控板调试\62T"
+-include="E:\实验室资料\实验室项目\207项目\主控板调试\62T\i_src"
+-output=obj="E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\Debug\R_PG_Timer_GPT_U0_C1.obj"
 -debug
-"E:\实验室资料\实验室项目\207项目\主控板调试\62T演示版\GPT\R_PG_Timer_GPT_U0_C1.c"
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\GPT\R_PG_Timer_GPT_U0_C1.c"
 -nologo

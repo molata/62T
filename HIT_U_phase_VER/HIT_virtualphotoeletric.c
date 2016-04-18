@@ -9,6 +9,7 @@ unsigned short HIT_sifu_shangdian = 1;
 extern float fpPC_to_motor_angle;
 float fpPC_to_motor_angle_1;
 float fpPC_to_motor_angle_2;
+float HIT_kkkkk = 0.0;
 void HIT_virtualphotoeletric()
 {
 
@@ -26,8 +27,8 @@ void HIT_virtualphotoeletric()
 	HITsita_photo_T_short=MTU1.TCNT;
 	if(HIT_run_mode == 21)
 	{
+		fpPC_to_motor_angle = HIT_kkkkk + 0.001;
 		fpPC_to_motor_angle_1 = fpPC_to_motor_angle;
-//		fpPC_to_motor_angle = fpPC_to_motor_angle + 0.0001;
 		if((fpPC_to_motor_angle > 50)||(fpPC_to_motor_angle < -50))
 		{
 			fpPC_to_motor_angle = fpPC_to_motor_angle_2;	
