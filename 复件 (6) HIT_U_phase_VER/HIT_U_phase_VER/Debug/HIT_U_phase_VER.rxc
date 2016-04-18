@@ -1,8 +1,0 @@
--cpu=rx600
--lang=c
--include="C:\Renesas\PDG2_proj\U_phase_VER"
--include="C:\Renesas\PDG2_proj\U_phase_VER\i_src"
--output=obj="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_U_phase_VER.obj"
--debug
-"E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\HIT_U_phase_VER.c"
--nologo

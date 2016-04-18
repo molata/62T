@@ -1,6 +1,0 @@
--cpu=rx600
--lang=c
--output=obj="D:\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_shouchaoqi_angle.obj"
--debug
-"D:\HIT_U_phase_VER\HIT_U_phase_VER\HIT_shouchaoqi_angle.c"
--nologo

@@ -1,8 +1,0 @@
--cpu=rx600
--lang=c
--include="c:\renesas\PDG2_proj\beipin_207_2"
--include="c:\renesas\PDG2_proj\beipin_207_2\i_src"
--output=obj="C:\WorkSpace\HIT_U_phase_VER\HIT_U_phase_VER\Debug\R_PG_SCI_C0.obj"
--debug
-"c:\renesas\PDG2_proj\beipin_207_2\SCI\R_PG_SCI_C0.c"
--nologo

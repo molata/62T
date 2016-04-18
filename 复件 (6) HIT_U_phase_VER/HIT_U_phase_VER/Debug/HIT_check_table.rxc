@@ -1,6 +1,0 @@
--cpu=rx600
--lang=c
--output=obj="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_check_table.obj"
--debug
-"E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\HIT_check_table.c"
--nologo

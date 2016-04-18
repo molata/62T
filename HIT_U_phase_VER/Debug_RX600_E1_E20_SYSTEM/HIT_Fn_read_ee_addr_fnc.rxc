@@ -1,6 +1,0 @@
--cpu=rx600
--lang=c
--output=obj="D:\HIT_U_phase_VER\HIT_U_phase_VER\Debug_RX600_E1_E20_SYSTEM\HIT_Fn_read_ee_addr_fnc.obj"
--debug
-"D:\HIT_U_phase_VER\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c"
--nologo
