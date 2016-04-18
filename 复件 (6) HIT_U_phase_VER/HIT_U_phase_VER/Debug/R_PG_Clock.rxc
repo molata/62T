@@ -1,0 +1,8 @@
+-cpu=rx600
+-lang=c
+-include="C:\Renesas\PDG2_proj\U_phase_VER"
+-include="C:\Renesas\PDG2_proj\U_phase_VER\i_src"
+-output=obj="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\R_PG_Clock.obj"
+-debug
+"C:\Renesas\PDG2_proj\U_phase_VER\SYSTEM\R_PG_Clock.c"
+-nologo

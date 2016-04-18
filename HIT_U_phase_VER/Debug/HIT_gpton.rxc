@@ -1,0 +1,6 @@
+-cpu=rx600
+-lang=c
+-output=obj="D:\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_gpton.obj"
+-debug
+"D:\HIT_U_phase_VER\HIT_U_phase_VER\HIT_gpton.c"
+-nologo

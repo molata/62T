@@ -1,0 +1,6 @@
+-cpu=rx600
+-lang=c
+-output=obj="D:\HIT_U_phase_VER\HIT_U_phase_VER\Debug_RX600_E1_E20_SYSTEM\HIT_OBW_state.obj"
+-debug
+"D:\HIT_U_phase_VER\HIT_U_phase_VER\HIT_OBW_state.c"
+-nologo

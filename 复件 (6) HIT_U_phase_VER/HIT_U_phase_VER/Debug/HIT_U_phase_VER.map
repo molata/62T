@@ -1,0 +1,112 @@
+Optimizing Linkage Editor (V.10.02.00.000)        24-Oct-2012 09:00:34
+
+*** Options ***
+
+-subcommand=E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_U_phase_VER.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-list="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_U_phase_VER.map"
+-nooptimize
+-start=B_1,R_1,B_2,R_2,B,R,SU,SI/01000,PResetPRG/0FFFF8000,C_1,C_2,C,C$*,D_1,D_2,D,P,PIntPRG,W*,L/0FFFF8100,FIXEDVECT/0FFFFFFD0
+-nologo
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\dbsct.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_2hundredto3hundredms.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_check_table.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_check_table_ab.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_cmt0intfunc.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_controlsystem_servoon.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_current_pi.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_gpt0cmvintfunc.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_gptoff.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_gpton.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_hardwaresetup.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_identification.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_iocontrol.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_make_angle.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_make_angleab.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_mechanicalpi.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_par_initial.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_positioncontrol.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_servofirst.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_servoon.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_spacevectorcontrol.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_U_phase_VER.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_vectorcontrol.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_virtualphotoeletric.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_zeroto2hundredms.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\Interrupt_CMT.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\Interrupt_GPT.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\Interrupt_INTC.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\Interrupt_SCI.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\R_PG_Clock.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\R_PG_I2C_C0.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\R_PG_SCI_C2.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\R_PG_Timer_CMT_U0.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\R_PG_Timer_GPT_U0.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\R_PG_Timer_GPT_U0_C0.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\R_PG_Timer_GPT_U0_C1.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\R_PG_Timer_GPT_U0_C2.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\resetprg.obj"
+-input="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\sbrk.obj"
+-library="C:\Renesas\PDG2\lib\RX62T\RX62T_library_LQFP_64.lib"
+-library="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_U_phase_VER.lib"
+-output="E:\rx_program\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_U_phase_VER.abs"
+-end
+
+*** Error information ***
+
+** L1100 (W) Cannot find "SU" specified in option "start"
+** L1100 (W) Cannot find "PIntPRG" specified in option "start"
+** L1100 (W) Cannot find "L" specified in option "start"
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+B_1
+                                  00001000  00001077        78   1
+R_1
+                                  00001078  00001088        11   1
+B_2
+                                  0000108a  000011cd       144   2
+R_2
+                                  000011ce  000011f7        2a   2
+B
+                                  000011f8  00001a1f       828   4
+R
+                                  00001a20  00001cb3       294   4
+SI
+                                  00001cb4  000025b3       900   4
+$ADDR_D_100000
+                                  00100000  00101fff      2000   1
+PResetPRG
+                                  ffff8000  ffff8029        2a   1
+C_1
+                                  ffff8100  ffff8113        14   1
+C_2
+                                  ffff8114  ffff811b         8   2
+C
+                                  ffff811c  ffff816f        54   4
+C$DSEC
+                                  ffff8170  ffff8193        24   4
+C$BSEC
+                                  ffff8194  ffff81ab        18   4
+C$VECT
+                                  ffff81ac  ffff85ab       400   4
+D_1
+                                  ffff85ac  ffff85bc        11   1
+D_2
+                                  ffff85be  ffff85e7        2a   2
+D
+                                  ffff85e8  ffff887b       294   4
+P
+                                  ffff887c  fffffc35      73ba   1
+W_1
+                                  fffffc36  fffffc49        14   1
+W_2
+                                  fffffc4a  fffffc6d        24   2
+W
+                                  fffffc70  fffffc70         0   4
+FIXEDVECT
+                                  ffffffd0  ffffffff        30   4
