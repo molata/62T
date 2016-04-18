@@ -7,23 +7,39 @@
 [GENERAL_DATA]
 [BREAKPOINTS]
 [OPEN_WORKSPACE_FILES]
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\HIT_cmt1intfunc.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\HIT_current_pi.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\HIT_get_sci_buf_data.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\HIT_hardwaresetup.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\HIT_servoon.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\HIT_U_phase_VER.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\resetprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\GPT\R_PG_Timer_GPT_U0.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\GPT\R_PG_Timer_GPT_U0_C0.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\GPT\R_PG_Timer_GPT_U0_C1.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\GPT\R_PG_Timer_GPT_U0_C2.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_cmt0intfunc.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_cmt1intfunc.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_current_pi.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_hardwaresetup.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\hit_mechanicalpi.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_positioncontrol.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_servoon.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_U_phase_VER.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_virtualphotoeletric.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\resetprg.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\i_src\Interrupt_CMT.c" 
 [WORKSPACE_FILE_STATES]
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\HIT_U_phase_VER.c" 100 100 1346 434 0 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\HIT_cmt1intfunc.c" 150 150 1346 453 0 6 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\HIT_current_pi.c" 125 125 1346 434 0 5 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\HIT_get_sci_buf_data.c" 0 0 1342 449 0 0 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" 25 25 1342 449 0 1 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\HIT_hardwaresetup.c" 50 50 1346 453 0 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\HIT_servoon.c" -8 -30 1562 672 1 7 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\resetprg.c" 75 75 1346 434 0 3 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\GPT\R_PG_Timer_GPT_U0.c" 0 0 1346 434 0 9 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\GPT\R_PG_Timer_GPT_U0_C0.c" 175 175 1346 434 0 7 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\GPT\R_PG_Timer_GPT_U0_C1.c" 25 25 1346 434 0 10 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\GPT\R_PG_Timer_GPT_U0_C2.c" 50 50 1346 434 0 11 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_U_phase_VER.c" 100 100 1346 434 0 13 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_cmt0intfunc.c" 125 125 1346 434 0 5 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_cmt1intfunc.c" 200 200 1346 434 0 8 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_current_pi.c" 75 75 1346 434 0 12 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" -8 -30 1562 691 1 0 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_hardwaresetup.c" 75 75 1346 434 0 3 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_positioncontrol.c" 125 125 1346 434 0 14 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_servoon.c" 150 150 1346 434 0 6 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_virtualphotoeletric.c" 100 100 1346 434 0 4 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\hit_mechanicalpi.c" 150 150 1346 434 0 15 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\resetprg.c" 25 25 1346 434 0 1 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\i_src\Interrupt_CMT.c" 50 50 1346 434 0 2 
 [LOADED_PROJECTS]
 "HIT_U_phase_VER" 
 [END]

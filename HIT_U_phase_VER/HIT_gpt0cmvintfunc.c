@@ -47,7 +47,8 @@ void Gpt0CmVIntFunc()
 		HIT_tgr_a_val4= 500;
 		HIT_tgr_b_val4= 500;
 		HIT_tgr_d_val4= 500;*/
-//	PORT9.DDR.BIT.B4 = 1;
+	//PORT9.DR.BIT.B4 = !PORT9.DR.BIT.B4;
+	PORTA.DR.BIT.B4 = !PORTA.DR.BIT.B4;
 	switch(HIT_pwm_mode_choose)	
 	{
 		case 1:
@@ -95,8 +96,8 @@ void Gpt0CmVIntFunc()
 	}
 	if(ucPluse_send == 1)
 	{
-		ucPluse_send++;
-		//PORT9.DR.BIT.B4 = 0x00;
+		//PORT9.DR.BIT.B4 = 0X00;
+		ucPluse_send = 2;
 	}
 	if(ucPluse_send == 2)
 	{
@@ -109,9 +110,6 @@ void Gpt0CmVIntFunc()
 		}
 		SCI2.SSR.BIT.ORER = 0;   // 溢出标志量，清零
 		SCI2.SSR.BIT.FER = 0; 
-		SCI2.SCR.BIT.RE = 0X01;  // 手动接收使能
-		SCI2.SCR.BIT.RIE = 0X01; // 手动接收中断使能
-		
 		ucPluse_send = 0;
 	}
 	usMotor_pluse_count++;
@@ -127,36 +125,12 @@ void Gpt0CmVIntFunc()
 		//SCI2.TDR = usMotor_to_PC_angle && 0x00FF;
 		//SCI2.TDR = (usMotor_to_PC_angle && 0xFF00)>>8;
 		R_PG_SCI_StartSending_C2(&usMotor_to_PC_angle, 2);
-		PORT9.DR.BIT.B4 = 0X01;
 		ucPluse_send = 1;
 		usMotor_pluse_count = 0;
-		
+		//PORT9.DR.BIT.B4 = 0X01;
 	}
-/****
-	if(serial_receive(&usPC_to_motor_cmd, 2))
-	{
-		usCount++;
-		if(usCount >= 10000)
-		{
-			usMotor_angle++;
-			if(usMotor_angle > 20000)
-			{
-				usMotor_angle = 0;
-			}	
-			usCount = 0;
-		}
-		sMotor_to_PC_angle = (unsigned short)HIT_enc_fin;
-		R_PG_SCI_StartSending_C2(&usMotor_to_PC_angle, 2);
-	}***/
-/***
-	if(usPC_to_motor_cmd != 0xAAAA && usPC_to_motor_cmd != 0xFFFF && usPC_to_motor_cmd != 0xAAFF && usPC_to_motor_cmd != 0xFFAA)
-	{
-		fpPC_to_motor_angle = ((float)usPC_to_motor_cmd - 1800)/100;
-		usPC_to_motor_cmd = 0xFFFF;
-	}
-***/
 	SCI2.SCR.BIT.RE = 1;
-//	PORT9.DDR.BIT.B4 = 0;
+	
 }
 
 #endif

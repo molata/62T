@@ -73,7 +73,7 @@ void Cmt3IntFunc()//50us
 	
 //	PORT3.DR.BIT.B1=1;
 //	PORT7.DR.BIT.B0=1;//modify 20131115
-   PORTA.DR.BIT.B4=1;//20140711
+   //PORTA.DR.BIT.B4=1;//20140711
 /////////////////////////////////////////
 //	HIT_ready_go = 1;
 //	HIT_run_mode = 14;
@@ -181,5 +181,5 @@ void Cmt3IntFunc()//50us
 
 //	PORT3.DR.BIT.B1=0;
 //	PORT7.DR.BIT.B0=0;//modify 20131115
-	PORTA.DR.BIT.B4=0;//20140711
+	//PORTA.DR.BIT.B4=0;//20140711
 }

@@ -74,7 +74,7 @@ bool R_PG_Timer_Start_CMT_U0_C0(void)
 		PDL_CMT_PCLK_DIV_8 | PDL_CMT_DTC_TRIGGER_DISABLE,
 		4999,
 		Cmt0IntFunc,
-		13
+		12
 	);
 }
 

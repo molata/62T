@@ -16,7 +16,9 @@
 -include="E:\实验室资料\实验室项目\207项目\主控板调试\62T可以工作\HIT_U_phase_VER\i_src"
 -include="E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER"
 -include="E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\i_src"
--output=obj="E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\Debug\HIT_2hundredto3hundredms.obj"
+-include="E:\实验室资料\实验室项目\207项目\主控板调试\62T"
+-include="E:\实验室资料\实验室项目\207项目\主控板调试\62T\i_src"
+-output=obj="E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\Debug\HIT_2hundredto3hundredms.obj"
 -debug
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER\HIT_U_phase_VER\HIT_2hundredto3hundredms.c"
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_2hundredto3hundredms.c"
 -nologo

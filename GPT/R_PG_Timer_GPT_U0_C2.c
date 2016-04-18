@@ -92,7 +92,7 @@ bool R_PG_Timer_Set_GPT_U0_C2(void)
 	create_parameters.data12 = 0;
 
 	control_parameters.data4 = 0;
-	control_parameters.data11 = 1000;
+	control_parameters.data11 = 500;
 	control_parameters.data20 = 160;
 
 	res = R_GPT_Create(
