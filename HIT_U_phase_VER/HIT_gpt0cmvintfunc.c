@@ -100,6 +100,7 @@ void Gpt0CmVIntFunc()
 	}
 	if(ucPluse_send == 2)
 	{
+		R_PG_SCI_StartSending_C2(&usMotor_to_PC_angle, 2);
 		PORT9.DR.BIT.B4 = 0x00;
 		//serial_receive(&usPC_to_motor_cmd, 2);
 		R_PG_SCI_StartReceiving_C2(&usPC_to_motor_cmd, 2);
@@ -127,7 +128,7 @@ void Gpt0CmVIntFunc()
 		}
 		//SCI2.TDR = usMotor_to_PC_angle && 0x00FF;
 		//SCI2.TDR = (usMotor_to_PC_angle && 0xFF00)>>8;
-		R_PG_SCI_StartSending_C2(&usMotor_to_PC_angle, 2);
+		
 		PORT9.DR.BIT.B4 = 0X01;
 		ucPluse_send = 1;
 		usMotor_pluse_count = 0;
