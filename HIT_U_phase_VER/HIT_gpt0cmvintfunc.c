@@ -21,6 +21,7 @@ unsigned short usMotor_angle = 0;
 extern  int HIT_enc_fin;
 unsigned short usMotor_pluse_count = 0;     // 计数脉冲，每500us请求发送一次数据， GPT的周期是25us
 unsigned char ucPluse_send = 0;            // 是否发送脉冲，
+extern  int HIT_enc_fin;
 //#pragma interrupt Gpt0CmVIntFunc(vect=178)
 char serial_receive(unsigned char * ucSerial_datas, unsigned int uiCount)
 {
@@ -46,6 +47,7 @@ void Gpt0CmVIntFunc()
 		HIT_tgr_a_val4= 500;
 		HIT_tgr_b_val4= 500;
 		HIT_tgr_d_val4= 500;*/
+//	PORT9.DDR.BIT.B4 = 1;
 	switch(HIT_pwm_mode_choose)	
 	{
 		case 1:
@@ -93,13 +95,18 @@ void Gpt0CmVIntFunc()
 	}
 	if(ucPluse_send == 1)
 	{
-		ucPluse_send = 0;
-		PORT9.DR.BIT.B4 = 0x00;
+		ucPluse_send++;
+		//PORT9.DR.BIT.B4 = 0x00;
 	}
 	if(ucPluse_send == 2)
 	{
 		
 		//serial_receive(&usPC_to_motor_cmd, 2);
+		R_PG_SCI_StartReceiving_C2(&usPC_to_motor_cmd, 2);	
+		if(usPC_to_motor_cmd != 0x55AA)
+		{
+			//fpPC_to_motor_angle = ((float)usPC_to_motor_cmd - 1800)/100;	
+		}
 		SCI2.SSR.BIT.ORER = 0;   // 溢出标志量，清零
 		SCI2.SSR.BIT.FER = 0; 
 		SCI2.SCR.BIT.RE = 0X01;  // 手动接收使能
@@ -123,11 +130,7 @@ void Gpt0CmVIntFunc()
 		PORT9.DR.BIT.B4 = 0X01;
 		ucPluse_send = 1;
 		usMotor_pluse_count = 0;
-		R_PG_SCI_StartReceiving_C2(&usPC_to_motor_cmd, 2);	
-		if(usPC_to_motor_cmd != 0x55AA)
-		{
-			fpPC_to_motor_angle = ((float)usPC_to_motor_cmd - 1800)/100;	
-		}
+		
 	}
 /****
 	if(serial_receive(&usPC_to_motor_cmd, 2))
@@ -153,7 +156,7 @@ void Gpt0CmVIntFunc()
 	}
 ***/
 	SCI2.SCR.BIT.RE = 1;
-
+//	PORT9.DDR.BIT.B4 = 0;
 }
 
 #endif

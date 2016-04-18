@@ -36,7 +36,7 @@
 * Description  : 
 * Limitations  : 
 ******************************************************************************
-* History : 17.04.2016 Version Description
+* History : 18.04.2016 Version Description
 *         :   
 ******************************************************************************/
 
@@ -71,9 +71,9 @@ bool R_PG_SCI_Set_C2(void)
 {
 	return R_SCI_Create(
 		2,
-		PDL_SCI_SYNC | PDL_SCI_TX_CONNECTED | PDL_SCI_RX_CONNECTED | PDL_SCI_CLK_EXT,
-		BIT_31 | (1000000 & 0x00FFFFFFul),
-		13
+		PDL_SCI_ASYNC | PDL_SCI_TX_CONNECTED | PDL_SCI_RX_CONNECTED | PDL_SCI_CLK_INT_IO | PDL_SCI_NC_ENABLE | PDL_SCI_8_BIT_LENGTH | PDL_SCI_PARITY_NONE | PDL_SCI_STOP_1,
+		BIT_31 | PDL_SCI_PCLK_DIV_1 | PDL_SCI_CYCLE_BIT_8 | 0x19 | (96153 & 0x00FFFF00ul),
+		12
 	);
 }
 
