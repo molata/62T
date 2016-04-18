@@ -36,7 +36,7 @@
 * Description  : 
 * Limitations  : 
 ******************************************************************************
-* History : 17.04.2016 Version Description
+* History : 18.04.2016 Version Description
 *         :   
 ******************************************************************************/
 
@@ -74,7 +74,7 @@ bool R_PG_Timer_Start_CMT_U1_C3(void)
 		PDL_CMT_PCLK_DIV_8 | PDL_CMT_DTC_TRIGGER_DISABLE,
 		249,
 		Cmt3IntFunc,
-		14
+		13
 	);
 }
 
