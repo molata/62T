@@ -6,7 +6,7 @@
 #include	<machine.h>
 #include	<_h_c_lib.h>
 //#include	<stddef.h>					// Remove 
-//#include 	<stdlib.h>					// Remove the comment when you use rand()
+//#include 	<stdlib.h>					// Remove the comm
 #include	"typedefine.h"		// Define Types
 #include	"stacksct.h"		// Stack Sizes (Interrupt and User)
 
