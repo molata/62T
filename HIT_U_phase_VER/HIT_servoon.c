@@ -254,8 +254,8 @@ void HIT_servoon()
 		HIT_speedlpf = HIT_speedlpf + HIT_lpfv1B * HIT_wone;
 		HIT_speedlpf = HIT_speedlpf + HIT_lpfv1B * (HIT_wtwo-HIT_speedlpf);
 		HIT_wtwo = HIT_wone;/*filter end*/ 
-		HIT_speedlpf_out = HIT_speedlpf;
-
+		HIT_speedlpf_out = HIT_speedlpf;    // ËÙ¶È×ª»»
+ 
 
 			if((HIT_run_mode == 2)||(HIT_run_mode == 5)||(HIT_run_mode == 7)||(HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15)||(HIT_run_mode == 18)||(HIT_run_mode == 28))
 			{
@@ -295,7 +295,11 @@ void HIT_servoon()
 				
 				if(HIT_run_mode == 28)
 				{
-					HIT_wone_re = fpPC_to_motor_angle;//HIT_we_re;
+					if(fpPC_to_motor_angle < 18 && fpPC_to_motor_angle > -18)
+					{
+						HIT_wone_re = fpPC_to_motor_angle;//HIT_we_re;
+					}
+					
 					HIT_speedlpf_re = HIT_lpfv1A * HIT_speedlpf_re;
 					HIT_speedlpf_re = HIT_speedlpf_re + HIT_lpfv1B * HIT_wone_re;
 					HIT_speedlpf_re = HIT_speedlpf_re + HIT_lpfv1B * (HIT_wtwo_re-HIT_speedlpf_re);

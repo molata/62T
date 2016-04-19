@@ -564,11 +564,11 @@
 [WINDOW_POSITION_STATE_DATA_VD3]
 [WINDOW_POSITION_STATE_DATA_VD4]
 [WINDOW_Z_ORDER]
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\HIT_U_phase_VER\HIT_servoon.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\HIT_U_phase_VER\HIT_cmt1intfunc.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\HIT_U_phase_VER\HIT_U_phase_VER.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\HIT_U_phase_VER\resetprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\HIT_U_phase_VER\HIT_hardwaresetup.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_cmt1intfunc.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\typedefine.h" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_par_initial.c" 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_servoon.c" 
 [TARGET_NAME]
 "RX600 E1/E20 SYSTEM" "" 0 
 [STATUSBAR_STATEINFO_VD1]
@@ -591,15 +591,15 @@
 "SBK_TAR_EMUE100|Exception" 1 
 "SBK_TAR_EMUE100|BreakCondition" 1 
 "SBK_TAR_EMUE100|TaskID" 1 
-"SBK_TAR_EMUE100|PC" 1 
 "SBK_TAR_EMUE100|ExecutionTime" 1 
+"SBK_TAR_EMUE100|PC" 1 
 [STATUSBAR_DEBUGGER_PANESTATE_VD2]
 [STATUSBAR_DEBUGGER_PANESTATE_VD3]
 [STATUSBAR_DEBUGGER_PANESTATE_VD4]
 [DEBUGGER_OPTIONS]
 "" 
 [DOWNLOAD_MODULES]
-"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\HIT_U_phase_VER\Debug\HIT_U_phase_VER.abs" 0 "Elf/Dwarf2" 0 0 1 0 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\Debug\HIT_U_phase_VER.abs" 0 "Elf/Dwarf2" 0 0 1 0 
 [CONNECT_ON_GO]
 "FALSE" 
 [DOWNLOAD_MODULES_AFTER_BUILD]

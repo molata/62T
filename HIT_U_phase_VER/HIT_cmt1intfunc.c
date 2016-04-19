@@ -66,15 +66,20 @@ unsigned short HIT_count_num = 0;
 extern unsigned char HIT_pwm_mode_choose;
 /********************* 串口接收 **********************************/
 float fpPC_to_motor_angle = 0;    // 上位机发送给电机的角度指令
-float fpMotor_to_pc = 0;
+float fpMotor_to_pc_deg = 0;         // 
+float fpMotor_to_pc_velo = 0;    // 向上位机发送
+unsigned char ucMotor_send_flag = 0;    // 判断当前返回的速度还是角度：0： 发送角度； 1.发送速度
 unsigned short usPC_to_motor_cmd = 0XFFFF;  // 上位机发送给电机的所有命令
-unsigned short usMotor_to_PC_angle = 0;    // 电机发送给上位机的查询角度
+unsigned short usMotor_to_PC_value = 0;    // 电机发送给上位机的查询角度
 short usCount = 0;
 unsigned short usMotor_angle = 0;
 extern  int HIT_enc_fin;
 unsigned short usMotor_pluse_count = 0;     // 计数脉冲，每500us请求发送一次数据， GPT的周期是25us
 unsigned char ucPluse_send = 0;            // 是否发送脉冲，
-extern  int HIT_enc_fin;
+
+extern  int HIT_enc_fin;    // 返回的角度值
+
+
 void Cmt3IntFunc()//50us
 {
 	
@@ -172,10 +177,19 @@ void Cmt3IntFunc()//50us
 		usCount++;
 		if(usCount >= 500)
 		{
-			usMotor_to_PC_angle++;	
+			usMotor_to_PC_value++;	
 			usCount = 0;
 		}
-		R_PG_SCI_StartSending_C2(&usMotor_to_PC_angle, 2);
+		if(ucMotor_send_flag == 0) // 发送角度
+		{
+			usMotor_to_PC_value = fpMotor_to_pc_deg * 100 + 1800 + 0XAA000000;	
+			ucMotor_send_flag= 1;  // 下次发送速度
+		}
+		else if(ucMotor_send_flag == 1)
+		{
+			usMotor_to_PC_value	= fpMotor_to_pc_velo * 1000 + 6000 + 0X55000000;
+		}
+		R_PG_SCI_StartSending_C2(&usMotor_to_PC_value, 2);
 		PORT9.DR.BIT.B4 = 0X01;
 		ucPluse_send = 1;
 		usMotor_pluse_count = 0;
