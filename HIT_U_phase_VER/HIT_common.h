@@ -453,6 +453,4 @@ unsigned short HIT_new_angle_short;
 #define HIT_TWOPIE 6.28319
 #define HIT_MAKE16WEI_ANGLE 10430.378//10420.6
 #define HIT_AD16WEI 65536
-#define Motor_62TA 0
-#define Motor_62TB 1
 #endif
