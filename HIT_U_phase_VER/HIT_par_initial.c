@@ -519,31 +519,31 @@ void HIT_par_initial(void)
 
 				
 //				case 8808://速度环Ti(1/100)  Pn008
-				HIT_MechTi = 516;//516;//(float)HIT_iic_word_rec_short;//5000;//(float)HIT_iic_word_rec_short;//单位ms
+				HIT_MechTi = 2516;//516;//2516;//1516;//1216;//1516;//516;//516;//(float)HIT_iic_word_rec_short;//5000;//(float)HIT_iic_word_rec_short;//单位ms
 				HIT_MechTi = HIT_MechTi/1000;//转化成秒
 				HIT_MechTi = HIT_MechTi/100;
 				HIT_WLMechki= 1/HIT_MechTi;
 				HIT_WLMech_Ki  = HIT_WLMechki*HIT_Ts;//HIT_Ts = 0.00005;开关频率，积分dt
 //				break;
 //				case 8807://速度环KV  Pn007(1/10)
-				HIT_WLMechkv = 200;//1200;//1200;//660;//(float)HIT_iic_word_rec_short;//40;//(float)(HIT_iic_word_rec_short);
+				HIT_WLMechkv = 110;//110;//120;//150;//200;//1200;//1200;//660;//(float)HIT_iic_word_rec_short;//40;//(float)(HIT_iic_word_rec_short);
 //				break;
 //				case 8809://位置环增益Pn009
 				HIT_positon_Kp_int_float = 1;//(float)HIT_iic_word_rec_short;
 				HIT_positon_Kp_int_float = HIT_positon_Kp_int_float/10;
 //				break;
 //				case 7604://HIT_run_mode  Fn004
-				HIT_run_mode = 21;//6;//6;//19;//18;//6;//1;//18;//1;//8;//(float)HIT_iic_word_rec_short;//1;//(float)HIT_iic_word_rec_short;
+				HIT_run_mode = 28;//6;//18;//19;//18;//6;//1;//18;//1;//8;//(float)HIT_iic_word_rec_short;//1;//(float)HIT_iic_word_rec_short;
 //				break;
 //				case 7607://Fn007
-				HIT_sitadf_int = 0x72ef;//6090;//6123;//0x72ef;//6123;//0xbf5a;//0x72ef;//0x7330;//(int)HIT_iic_word_rec_short;
+				HIT_sitadf_int = 0x7003;//0x72ef;//0x7330;//5854;//29410;//100;//(int)HIT_iic_word_rec_short;
 				HIT_ceshishi[0] = HIT_iic_word_rec_short;
 //				break;
 //				case 7608://Fn008 电流环测试时间开关 2时打开测试开关
 				HIT_cur_test = 2;//(unsigned short)HIT_iic_word_rec_short;
 //				break;
 //				case 8827://Pn01B HIT_id_ref
-				HIT_id_ref = 1.5;//0.5;//(float)HIT_iic_word_rec_short/10;//6;//(float)HIT_iic_word_rec_short/10;	
+				HIT_id_ref = 1;//0.5;//1.5;//0.5;//(float)HIT_iic_word_rec_short/10;//6;//(float)HIT_iic_word_rec_short/10;	
 //				break;
 //				case 8828://Pn01C HIT_iq_ref
 				HIT_iq_ref = 0.2;//1;//0.5;//(float)HIT_iic_word_rec_short/10;//1;//(float)HIT_iic_word_rec_short/10;	
@@ -562,7 +562,7 @@ void HIT_par_initial(void)
 //				break;
 //				case 9204://Sn004 HITkv
 				HIT_kv = 77500;//77500;//37500;//7500;//6000;//(float)HIT_iic_word_rec_short;//4000;//(float)HIT_iic_word_rec_short;
-				HIT_lm = 0.000075;		
+				HIT_lm = 0.0000075;//0.000075;		
 				HIT_kv=HIT_kv*HIT_lm;
 //				break;
 //				case 8826:
@@ -693,7 +693,7 @@ void HIT_par_initial(void)
 //				HIT_WL_Jm_FF = HIT_WL_Jm_FF/10000000000;
 //				break;
 //				case 8853://HIT_WL_Jm/100000000000
-				HIT_WL_Jm  = 0.00005289;//((float)HIT_iic_word_rec_short)/10000000000;//(float)53000/10000000000;//((float)HIT_iic_word_rec_short)/10000000000;//10000000000;
+				HIT_WL_Jm  = 0.00001423;//0.00005289;//((float)HIT_iic_word_rec_short)/10000000000;//(float)53000/10000000000;//((float)HIT_iic_word_rec_short)/10000000000;//10000000000;
 //				HIT_WL_Jm  = HIT_WL_Jm/10000000000;
 //				break;
 //				case 8859://HIT_OBC_current_wn
@@ -797,7 +797,7 @@ void HIT_par_initial(void)
 				HIT_ee_con_byte_1 = 0xa7;
 				HIT_start_address = 8000;
 				HIT_rec_adrr_short = HIT_start_address + (unsigned short)HIT_star_R_ee_i+1;
-//			HIT_Fn_read_ee_addr_fnc();
+			HIT_Fn_read_ee_addr_fnc();
 			if(HIT_rec_adrr_short%2 == 0)
 			{
 				HIT_speed_command[HIT_speed_command_i] = (float)HIT_iic_word_rec_short;//速度

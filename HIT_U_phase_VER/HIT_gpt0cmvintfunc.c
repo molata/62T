@@ -13,31 +13,14 @@ extern char HIT_pos_count;
 extern char HIT_ready_go;
 
 //#pragma interrupt Gpt0CmVIntFunc(vect=178)
-char serial_receive(unsigned char * ucSerial_datas, unsigned int uiCount)
-{
-
-	char blResult = 0;
-	int isCount = 0;
-	R_PG_SCI_StartReceiving_C2(ucSerial_datas, uiCount);
-	SCI2.SSR.BIT.RDRF = 0;
-	
-	for(isCount = 0 ; isCount < uiCount; isCount++)
-	{
-		if(ucSerial_datas[isCount] != 0XFF)
-			blResult = 1;
-			break;	
-	}
-	return blResult;
-}
 void Gpt0CmVIntFunc()
 {
-/*		HIT_tgr_d_val3= 600;
-		HIT_tgr_b_val3= 600;
+/*		HIT_tgr_d_val3= 100;
+		HIT_tgr_b_val3= 100;
 		HIT_tgr_c_val4= 500; 
 		HIT_tgr_a_val4= 500;
 		HIT_tgr_b_val4= 500;
 		HIT_tgr_d_val4= 500;*/
-//	PORT9.DDR.BIT.B4 = 1;
 	switch(HIT_pwm_mode_choose)	
 	{
 		case 1:
@@ -83,7 +66,6 @@ void Gpt0CmVIntFunc()
 		GPT2.GTONCR.WORD = 0X0000;
 		break;
 	}
-
 }
 
 #endif

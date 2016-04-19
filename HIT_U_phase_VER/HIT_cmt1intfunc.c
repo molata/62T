@@ -43,30 +43,27 @@ extern float HIT_lpfmode_10_1B;
 float HIT_sita_mode_10_fone = 0.0;
 float HIT_sita_mode_10_ftwo = 0.0;
 float HIT_sita_mode_10_f_lpf = 0.0;
-
-
-
-
-	  
 union {
-		int HIT_Rx_Tr;
+		int HIT_Rx_re;
 			struct {
-				unsigned char HIT_Rx_Da:8;//最低位
-				unsigned char HIT_Rx_M:5;//中间位
-				unsigned char HIT_Rx_H_3:1;//倒数3最高位
-				unsigned char HIT_Rx_H_1:2;//最高位
+				unsigned short HIT_Rx_data:16;//倒数3最高位
+				unsigned short HIT_Rx_sel:16;//最高位
 			}BIT;
-		}HIT_Rx_int;
-int HIT_enc_L;
-int HIT_enc_H;
+		}HIT_Rx_union;
+unsigned int HIT_RX_unsigned_int;
 int HIT_enc_fin;
-int HIT_gyo_w_H;
-int HIT_gyo_w_L;
-int HIT_gyo_w_fin;
-int HIT_gyo_fin;
-int HIT_gyo_H;
-int HIT_gyo_L;
-char HIT_gyo_w_z[2] = {0};
+unsigned short HIT_gyo_w_fin;
+unsigned short HIT_gyo_n_fin;
+float HIT_gyo_w_fin_f = 0;
+float HIT_gyo_w_da = 0;
+float HIT_gyo_n_fin_f = 0;
+float HIT_gyo_n_da = 0;
+//#pragma interrupt Cmt3IntFunc(vect=169)
+char HIT_run_start = 1;
+float HIT_gry_x_hall_f_sum = 0;
+float HIT_gry_x_hall_f_avg = 0;
+unsigned short HIT_count_num = 0;
+extern unsigned char HIT_pwm_mode_choose;
 /********************* 串口接收 **********************************/
 float fpPC_to_motor_angle = 0;    // 上位机发送给电机的角度指令
 float fpMotor_to_pc = 0;
@@ -78,7 +75,6 @@ extern  int HIT_enc_fin;
 unsigned short usMotor_pluse_count = 0;     // 计数脉冲，每500us请求发送一次数据， GPT的周期是25us
 unsigned char ucPluse_send = 0;            // 是否发送脉冲，
 extern  int HIT_enc_fin;
-//#pragma interrupt Cmt3IntFunc(vect=169)
 void Cmt3IntFunc()//50us
 {
 	
@@ -93,79 +89,46 @@ void Cmt3IntFunc()//50us
 /////////////////////////////////angle receive////////////////////////////////
 		if(RSPI0.SPSR.BIT.SPRF == 1)
 		{
-			HIT_RX = RSPI0.SPDR.LONG;
-/////////////////////////////////////////////////////////			
-			HIT_Rx_int.HIT_Rx_Tr = HIT_RX;
-/*			if(HIT_Rx_int.BIT.HIT_Rx_H_1 == 0)
+		
+			HIT_RX_unsigned_int =  RSPI0.SPDR.LONG;
+			HIT_Rx_union.HIT_Rx_re = HIT_RX_unsigned_int;
+			if(HIT_Rx_union.BIT.HIT_Rx_sel == 0xFFFF)
 			{
-				if(HIT_Rx_int.BIT.HIT_Rx_H_2 == 0)
-				{
-					HIT_enc_H = HIT_Rx_int.BIT.HIT_Rx_Da;
-				}
-				if(HIT_Rx_int.BIT.HIT_Rx_H_2 == 1)
-				{
-				 	HIT_enc_L = HIT_Rx_int.BIT.HIT_Rx_Da;
-				}	
-				HIT_enc_fin = (HIT_enc_H<<8) + HIT_enc_L;
-			}*/
-			
-			if((HIT_Rx_int.BIT.HIT_Rx_H_1 == 0)&&(HIT_Rx_int.BIT.HIT_Rx_Da != 0))
-			{
-				HIT_enc_H = HIT_Rx_int.BIT.HIT_Rx_Da;
+				HIT_gyo_w_fin = HIT_Rx_union.BIT.HIT_Rx_data;
+				HIT_gyo_w_fin_f = (float)HIT_gyo_w_fin;
+				HIT_gyo_w_da = (HIT_gyo_w_fin_f - 32768)/5000;
 			}
-			if(HIT_Rx_int.BIT.HIT_Rx_H_1 == 1)
+			else
 			{
-			 	HIT_enc_L = HIT_Rx_int.BIT.HIT_Rx_Da;
-			}	
-				HIT_enc_fin = (HIT_enc_H<<8) + HIT_enc_L;
-			
-			
-			if(HIT_Rx_int.BIT.HIT_Rx_H_1 == 2)
-			{
-				if(HIT_Rx_int.BIT.HIT_Rx_H_3 == 0)
-				{
-					HIT_gyo_w_H = HIT_Rx_int.BIT.HIT_Rx_Da;
-				}	
-				if(HIT_Rx_int.BIT.HIT_Rx_H_3 == 1)
-				{
-					HIT_gyo_w_L = HIT_Rx_int.BIT.HIT_Rx_Da;
-				}
-				HIT_gyo_w_fin = (HIT_gyo_w_H<<8) + HIT_gyo_w_L;		
-			}		
-					
+			 	HIT_enc_fin = HIT_Rx_union.BIT.HIT_Rx_sel;
+				HIT_gyo_n_fin = HIT_Rx_union.BIT.HIT_Rx_data;
+				HIT_gyo_n_fin_f = (float)HIT_gyo_n_fin;
+				HIT_gyo_n_fin_f = HIT_gyo_n_fin_f;
+				HIT_gyo_n_da = (HIT_gyo_n_fin_f - 32768)/5000;
+				HIT_gyo_n_da = HIT_gyo_n_da - HIT_gry_x_hall_f_avg;
 				
-				
-			if(HIT_Rx_int.BIT.HIT_Rx_H_1 == 3)
-			{
-				if(HIT_Rx_int.BIT.HIT_Rx_H_3 == 0)
+				if(HIT_run_start == 1)
 				{
-					HIT_gyo_H = HIT_Rx_int.BIT.HIT_Rx_Da;
-					
-				}	
-				if(HIT_Rx_int.BIT.HIT_Rx_H_3 == 1)
-				{
-					HIT_gyo_L = HIT_Rx_int.BIT.HIT_Rx_Da;
-					
-				}		
-				HIT_gyo_fin = (HIT_gyo_H<<8) + HIT_gyo_L;
-			}		
-					
+					HIT_count_num++;
+					HIT_gry_x_hall_f_sum = HIT_gyo_n_da + HIT_gry_x_hall_f_sum;
+					if(HIT_count_num == 50000)
+					{
+						HIT_gry_x_hall_f_avg = HIT_gry_x_hall_f_sum/50000;
+						HIT_run_start = 0;
+						HIT_ready_go = 1;
+						HIT_pwm_mode_choose = 1;
+					}	
+				}				
+			}
 				
-			
-			
-			
-/////////////////////////////////////////////////////////////			
 		}
 	if(RSPI0.SPSR.BIT.OVRF == 1)
 	{
 		RSPI0.SPSR.BIT.OVRF = 0;
 	}
 
-	HIT_sita_spi_rec_short = HIT_RX;
+	HIT_sita_spi_rec_short = HIT_enc_fin;//HIT_RX;
 	HIT_sita = (float)HIT_sita_spi_rec_short/65536*HITtwopie;
-	
-//	HIT_sita = HIT_sita;
-	
 	HIT_sita_mode_10_f = HIT_sita;
 	
 	HIT_mode_10_mag_sita_int = (signed int)(HIT_sita_mode_10_f*HIT_MAKE16WEI_ANGLE);//add 20130530

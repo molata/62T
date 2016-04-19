@@ -13,15 +13,15 @@ void HIT_Fn_read_ee_addr_fnc()
 	{
 		HIT_iic_word_send[0] = (HIT_rec_adrr_short-HIT_start_address)*2;///////the address iic read  
 		HIT_iic_word_rec_ad = HIT_iic_word_send[0];
-//		R_PG_I2C_MasterSend_C0(HIT_ee_con_byte_0, &HIT_iic_word_rec_ad, 1);//R_PG_I2C_MasterSend_C0(0xa2, &HIT_iic_word_rec_ad, 1);//EE block 1
-//		R_PG_I2C_MasterReceive_C0(HIT_ee_con_byte_1,&HIT_iic_word_rec_1,1);//读取到HIT_iic_word_rec_1
+		R_PG_I2C_MasterSend_C0(HIT_ee_con_byte_0, &HIT_iic_word_rec_ad, 1);//R_PG_I2C_MasterSend_C0(0xa2, &HIT_iic_word_rec_ad, 1);//EE block 1
+		R_PG_I2C_MasterReceive_C0(HIT_ee_con_byte_1,&HIT_iic_word_rec_1,1);//读取到HIT_iic_word_rec_1
 	}
 	
 	{
 		HIT_iic_word_send[1] = (HIT_rec_adrr_short-HIT_start_address)*2 + 1;/////the address iic read
 		HIT_iic_word_rec_ad = HIT_iic_word_send[1];
-//		R_PG_I2C_MasterSend_C0(HIT_ee_con_byte_0, &HIT_iic_word_rec_ad, 1);//EE block 1
-//		R_PG_I2C_MasterReceive_C0(HIT_ee_con_byte_1,&HIT_iic_word_rec_2,1);//读取到HIT_iic_word_rec_2
+		R_PG_I2C_MasterSend_C0(HIT_ee_con_byte_0, &HIT_iic_word_rec_ad, 1);//EE block 1
+		R_PG_I2C_MasterReceive_C0(HIT_ee_con_byte_1,&HIT_iic_word_rec_2,1);//读取到HIT_iic_word_rec_2
 	}	
 	HIT_iic_word_rec_short = (((unsigned short)(HIT_iic_word_rec_1))<<8) + HIT_iic_word_rec_2;
 }

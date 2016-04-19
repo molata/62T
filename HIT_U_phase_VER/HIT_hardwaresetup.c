@@ -87,10 +87,10 @@ GPT1.GTADTBRA=0X01;
 //GPT1.GTADTBRB=0X00;
 GPT2.GTADTBRA=0X01;
 //GPT2.GTADTBRB=0X00;
-	
 	PORT9.DDR.BIT.B4 = 0X01;   // port94作为输出IO
 	PORT9.DR.BIT.B4 = 0;       //初始引脚为低
-
+	
+	
 }
 
 #endif

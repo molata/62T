@@ -6,9 +6,6 @@ int HITsita_photo_T = 0;
 short HITsita_photo_T_short = 0;
 extern float HIT_run_mode;
 unsigned short HIT_sifu_shangdian = 1;
-extern float fpPC_to_motor_angle;
-float fpPC_to_motor_angle_1;
-float fpPC_to_motor_angle_2;
 void HIT_virtualphotoeletric()
 {
 
@@ -24,18 +21,6 @@ void HIT_virtualphotoeletric()
 		
 	}*/
 	HITsita_photo_T_short=MTU1.TCNT;
-	if(HIT_run_mode == 21)
-	{
-		fpPC_to_motor_angle_1 = fpPC_to_motor_angle;
-//		fpPC_to_motor_angle = fpPC_to_motor_angle + 0.0001;
-		if((fpPC_to_motor_angle > 50)||(fpPC_to_motor_angle < -50))
-		{
-			fpPC_to_motor_angle = fpPC_to_motor_angle_2;	
-		}
-		fpPC_to_motor_angle_2 = fpPC_to_motor_angle_1;
-		HIT_virtual_ps_int = fpPC_to_motor_angle/360*65535;	//HIT_jg_ang/360*65535;	
-	}
-	
 /*	if(HITsita_photo_T > 32767)
 	{
 		HITsita_photo_T = HITsita_photo_T - 32768;	

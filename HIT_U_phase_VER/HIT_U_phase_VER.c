@@ -121,12 +121,6 @@ void main(void)
 	SCI1.SCR.BIT.CKE = 0X00;//PDL_SCI_CLK_INT_OUT	
 	
 	SCI1.SCR.BIT.TE = 1;
-//////////////////////////////////////////////////////////////////////////////////
-
-
-//	R_PG_SCI_Set_C0();
-
-
 ////////////////////////////////////////////////////////////sci1 set END//////////////////////////////////////	
 //////////////////////////////////////////////////////////////spi set/////////////////////////////////////////////
 	SYSTEM.MSTPCRA.BIT.MSTPA28 = 1;//STOP DTC/////∑÷ÃÂ–Õ
@@ -159,7 +153,7 @@ void main(void)
 	RSPI0.SPND.BIT.SPNDL = 0;//PDL_SPI_NEXT_DELAY_1
 	
 	RSPI0.SPCMD0.BIT.BRDV = 0;//
-	RSPI0.SPBR = 0X13;//1M
+	RSPI0.SPBR = 0X09;//0X13;//1M
 	
 	
 	
@@ -171,7 +165,7 @@ void main(void)
 	
 	RSPI0.SPCMD0.BIT.BRDV = 0;//PDL_SPI_DIV_1
 	
-	RSPI0.SPCMD0.BIT.SPB = 0XFF;//4;//PDL_SPI_LENGTH_16
+	RSPI0.SPCMD0.BIT.SPB = 0X03;//0XFF;//4;//PDL_SPI_LENGTH_16
 	RSPI0.SPCMD0.BIT.LSBF = 0;//PDL_SPI_MSB_FIRST
 	
 	RSPI0.SPCR.BIT.SPE = 1;
@@ -190,8 +184,8 @@ void main(void)
 	chushihua=0;*/
 	
 	HIT_hardwaresetup();/*hardware-initial*/
-	HIT_ready_go = 1;
-	HIT_pwm_mode_choose = 1;
+//	HIT_ready_go = 1;
+//	HIT_pwm_mode_choose = 1;
 //	HIT_alarm = 1;
 	
 /*

@@ -166,8 +166,10 @@ void HIT_current_pi()
 		HIT_Ud = HIT_Ud-HIT_speedlpf_pole*HIT_Lq*HIT_iq_fb;/*claculate Ud*/ 
 		if(HIT_bf_u_open == 2)
 		{
-//			HIT_Ud = HIT_Ud + HIT_U_FF;		
-		}
+			
+//			HIT_Ud = HIT_Ud + HIT_U_FF;	
+		
+		 }
 
 /*q-PI*/
 
@@ -295,9 +297,9 @@ void HIT_current_pi()
 				HIT_pwm_cf = HIT_pwm_cf-HITpwm_deadoff;
 			}*/
 			
-	//		HIT_pwm_af = 1000;
-	//		HIT_pwm_bf = 1000;
-	//		HIT_pwm_cf = 1000;
+	//		HIT_pwm_af = 700;
+	//		HIT_pwm_bf = 500;
+	//		HIT_pwm_cf = 500;
 			
 			HIT_pwm_aint=(signed int)(HIT_pwm_af);
 		
@@ -341,8 +343,8 @@ void HIT_current_pi()
 			HIT_tgr_b_val4= (unsigned short)(HIT_PWM_FULL-HIT_pwm_cint);//(unsigned short)HIT_WJW_W1;//
 			HIT_tgr_d_val4= (unsigned short)(HIT_PWM_FULL-HIT_pwm_cint);//(unsigned short)HIT_WJW_W2;//
 		
-/*			HIT_tgr_d_val3= 670;
-			HIT_tgr_b_val3= 670;
+/*			HIT_tgr_d_val3= 100;
+			HIT_tgr_b_val3= 100;
 			HIT_tgr_c_val4= 500; 
 			HIT_tgr_a_val4= 500;
 			HIT_tgr_b_val4= 500;

@@ -6,9 +6,9 @@ extern char HIT_ready_go;
 float HIT_alarm = 0;
 unsigned char HIT_current_onems_alarm_count = 0;
 unsigned char HIT_current_onesec_alarm_count = 0;
-#define HIT_ins_cur_ala 5  //modify 20140112 10
-#define HIT_10ms_cur_ala 4 //modify 20140112 10
-#define HIT_1s_cur_ala 3//modify 20140112 10
+#define HIT_ins_cur_ala 3 //modify 20140112 10
+#define HIT_10ms_cur_ala 2.5 //modify 20140112 10
+#define HIT_1s_cur_ala 2//modify 20140112 10
 int HIT_alarm_num;
 extern unsigned char HIT_pwm_mode_choose ;
 void HIT_alarmnew()

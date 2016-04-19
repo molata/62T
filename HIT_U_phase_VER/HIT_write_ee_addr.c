@@ -13,13 +13,13 @@ void HIT_write_ee_addr()
 	{
 		HIT_iic_word_write_1[0] = HIT_iic_word_send[0];
 		HIT_iic_word_write_1[1] = 	(unsigned char)(HIT_change_num_H);
-//		R_PG_I2C_MasterSend_C0(HIT_ee_con_byte_0, HIT_iic_word_write_1, 2);//block 1 dizhi 1 xie 2
+		R_PG_I2C_MasterSend_C0(HIT_ee_con_byte_0, HIT_iic_word_write_1, 2);//block 1 dizhi 1 xie 2
 	}
 	if(HIT_iic_write_choose == 16)
 	{
 		HIT_iic_word_write_2[0] = HIT_iic_word_send[1];
 		HIT_iic_word_write_2[1] = 	(unsigned char)(HIT_change_num_L);
-//		R_PG_I2C_MasterSend_C0(HIT_ee_con_byte_0, HIT_iic_word_write_2, 2);//block 1 dizhi 1 xie 2
+		R_PG_I2C_MasterSend_C0(HIT_ee_con_byte_0, HIT_iic_word_write_2, 2);//block 1 dizhi 1 xie 2
 		HIThfuehf = 2;
 	}	
 	HIT_iic_write_choose++;

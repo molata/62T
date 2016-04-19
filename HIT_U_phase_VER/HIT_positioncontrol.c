@@ -115,7 +115,7 @@ void HIT_positioncontrol()
 	{
 		HIT_gear_num_f = 768;	
 	}*/
-	if((HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15)||(HIT_run_mode == 21))
+	if((HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15))
 	{
 		HIT_gear_num_f = 65536;	
 	}
@@ -123,7 +123,7 @@ void HIT_positioncontrol()
 	HIT_position_client_f = (float)HIT_position_client_int;
 //	HIT_position_client_f = 65536;//625;
 //	if((HIT_run_mode == 3)||(HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15))
-	if((HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15)||(HIT_run_mode == 21))
+	if((HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15))
 	{
 		HIT_position_client_f = 65536;	
 	}
