@@ -16,7 +16,9 @@
 -include="C:\WorkSpace\HIT_U_phase_VER\i_src"
 -include="E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5"
 -include="E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\i_src"
--output=obj="E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\Debug\dbsct.obj"
+-include="E:\实验室资料\实验室项目\207项目\主控板调试\62T内框"
+-include="E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\i_src"
+-output=obj="E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\HIT_U_phase_VER\Debug\dbsct.obj"
 -debug
-"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\dbsct.c"
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\HIT_U_phase_VER\dbsct.c"
 -nologo

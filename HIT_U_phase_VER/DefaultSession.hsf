@@ -521,7 +521,7 @@
 [LANGUAGE]
 "English" 
 [CONFIG_INFO_VD1]
-1 
+0 
 [CONFIG_INFO_VD2]
 0 
 [CONFIG_INFO_VD3]
@@ -539,7 +539,7 @@
 "{WK_00000001_REGISTERS}HIT_U_phase_VERDefaultSession" "WINDOW" 59421 0 0 "1.00" 180 0 0 350 200 2065 0 "" "0.0" 
 "{WK_00000001_STATUS}HIT_U_phase_VERDefaultSession" "WINDOW" 59422 0 3 "0.33" 213 0 0 350 200 17 0 "" "0.0" 
 "{WK_00000001_WATCH}" "WINDOW" 59422 0 1 "0.67" 213 0 0 350 200 18 0 "32781|32783|<<separator>>|32771|32829|32772|32827|32773|<<separator>>|32786|<<separator>>|32810|32811|32831" "0.0" 
-"{WK_00000002_WORKSPACE}" "WINDOW" 59420 0 0 "1.00" 415 427 257 350 200 18 0 "" "0.0" 
+"{WK_00000002_WORKSPACE}" "WINDOW" 59420 0 0 "1.00" 606 427 257 350 200 18 0 "" "0.0" 
 "{WK_TB00000001_STANDARD}" "TOOLBAR 0" 59419 0 2 "0.00" 0 0 0 0 0 18 0 "" "0.0" 
 "{WK_TB00000002_EDITOR}" "TOOLBAR 0" 59419 0 0 "0.00" 0 0 0 0 0 18 0 "" "0.0" 
 "{WK_TB00000003_BOOKMARKS}" "TOOLBAR 0" 59419 1 1 "0.00" 0 0 0 0 0 17 0 "" "0.0" 
@@ -564,11 +564,6 @@
 [WINDOW_POSITION_STATE_DATA_VD3]
 [WINDOW_POSITION_STATE_DATA_VD4]
 [WINDOW_Z_ORDER]
-"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_cmt1intfunc.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\typedefine.h" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_par_initial.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\HIT_servoon.c" 
 [TARGET_NAME]
 "RX600 E1/E20 SYSTEM" "" 0 
 [STATUSBAR_STATEINFO_VD1]
@@ -599,7 +594,7 @@
 [DEBUGGER_OPTIONS]
 "" 
 [DOWNLOAD_MODULES]
-"E:\实验室资料\实验室项目\207项目\主控板调试\62T\HIT_U_phase_VER\Debug\HIT_U_phase_VER.abs" 0 "Elf/Dwarf2" 0 0 1 0 
+"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\HIT_U_phase_VER\Debug\HIT_U_phase_VER.abs" 0 "Elf/Dwarf2" 0 0 1 0 
 [CONNECT_ON_GO]
 "FALSE" 
 [DOWNLOAD_MODULES_AFTER_BUILD]
