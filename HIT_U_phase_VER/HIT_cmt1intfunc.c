@@ -69,7 +69,7 @@ float fpPC_to_motor_angle = 0;    // 上位机发送给电机的角度指令
 float fpMotor_to_pc_deg = 0;         // 
 float fpMotor_to_pc_velo = 0;    // 向上位机发送
 unsigned char ucMotor_send_flag = 0;    // 判断当前返回的速度还是角度：0： 发送角度； 1.发送速度
-unsigned short usPC_to_motor_cmd = 0XFFFF;  // 上位机发送给电机的所有命令
+unsigned short usPC_to_motor_cmd = 0X0000;  // 上位机发送给电机的所有命令
 unsigned short usMotor_to_PC_value = 0;    // 电机发送给上位机的查询角度
 short usCount = 0;
 unsigned short usMotor_angle = 0;
@@ -175,11 +175,13 @@ void Cmt3IntFunc()//50us
 	{
 		//usMotor_to_PC_angle = (unsigned short)HIT_enc_fin;
 		usCount++;
-		if(usCount >= 500)
+		//if(usCount >= 500)
 		{
-			usMotor_to_PC_value++;	
-			usCount = 0;
+			usMotor_to_PC_value = usCount >> 3;
+				
+			//usCount = 0;
 		}
+/***
 		if(ucMotor_send_flag == 0) // 发送角度
 		{
 			usMotor_to_PC_value = fpMotor_to_pc_deg * 100 + 1800 + 0XAA000000;	
@@ -189,6 +191,7 @@ void Cmt3IntFunc()//50us
 		{
 			usMotor_to_PC_value	= fpMotor_to_pc_velo * 1000 + 6000 + 0X55000000;
 		}
+***/
 		R_PG_SCI_StartSending_C2(&usMotor_to_PC_value, 2);
 		PORT9.DR.BIT.B4 = 0X01;
 		ucPluse_send = 1;
