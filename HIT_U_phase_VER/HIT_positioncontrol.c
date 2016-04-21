@@ -80,7 +80,8 @@ void HIT_positioncontrol()
 		}
 		
 	//	HIT_virtual_ps_int_err = (int)(HIT_a_phase_sum/16);
-		HIT_virtual_ps_int_err_f = (float)HIT_a_phase_sum;
+	//	HIT_virtual_ps_int_err_f = (float)HIT_a_phase_sum;
+		HIT_virtual_ps_int_err_f = ((float)HIT_a_phase_sum)/16;
 	}
 //	if((HIT_run_mode == 12)||(HIT_run_mode == 13))
 	if((HIT_run_mode == 13))
@@ -115,7 +116,7 @@ void HIT_positioncontrol()
 	{
 		HIT_gear_num_f = 768;	
 	}*/
-	if((HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15))
+	if((HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15)||(HIT_run_mode == 38))
 	{
 		HIT_gear_num_f = 65536;	
 	}
@@ -123,7 +124,7 @@ void HIT_positioncontrol()
 	HIT_position_client_f = (float)HIT_position_client_int;
 //	HIT_position_client_f = 65536;//625;
 //	if((HIT_run_mode == 3)||(HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15))
-	if((HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15))
+	if((HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15)||(HIT_run_mode == 38))
 	{
 		HIT_position_client_f = 65536;	
 	}
@@ -181,7 +182,7 @@ void HIT_positioncontrol()
 	
 	*/
 //	HIT_WLw_ref = (HIT_pos_org_f*(1-HIT_OBW_kc) +  HIT_OBW_Err_P_f*HIT_OBW_kc)*HIT_positon_Kp_f/20000;//*20000;
-	HIT_WLw_ref = (HIT_pos_org_f*(1-HIT_OBW_kc))*HIT_positon_Kp_f/65535*HIT_PIE*40000;//20000;//*20000;
+	HIT_WLw_ref = (HIT_pos_org_f*(1-HIT_OBW_kc))*HIT_positon_Kp_f*20000;//20000;//*20000;
 	if(HIT_bf_m_open == 2) 
 	{
 		HIT_WLw_ref = HIT_WLw_ref + HIT_w_F_FF*HIT_bf_a;//HIT_M_12_w_ref*HIT_bf_a;	

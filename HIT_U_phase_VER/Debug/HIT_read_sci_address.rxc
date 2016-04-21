@@ -16,7 +16,11 @@
 -include="E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\i_src"
 -include="E:\实验室资料\实验室项目\207项目\主控板调试\62T内框"
 -include="E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\i_src"
--output=obj="E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\HIT_U_phase_VER\Debug\HIT_read_sci_address.obj"
+-include="C:\WorkSpace\62T内框"
+-include="C:\WorkSpace\62T内框\i_src"
+-include="E:\20160421框架内外框电机和上位机调试程序\62T内框"
+-include="E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src"
+-output=obj="E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\Debug\HIT_read_sci_address.obj"
 -debug
-"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\HIT_U_phase_VER\HIT_read_sci_address.c"
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_read_sci_address.c"
 -nologo

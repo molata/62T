@@ -1,8 +1,8 @@
 -cpu=rx600
 -lang=c
--include="E:\实验室资料\实验室项目\207项目\主控板调试\62T内框"
--include="E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\i_src"
--output=obj="E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\HIT_U_phase_VER\Debug\R_PG_Timer_CMT_U1.obj"
+-include="E:\20160421框架内外框电机和上位机调试程序\62T内框"
+-include="E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src"
+-output=obj="E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\Debug\R_PG_Timer_CMT_U1.obj"
 -debug
-"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\CMT\R_PG_Timer_CMT_U1.c"
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\CMT\R_PG_Timer_CMT_U1.c"
 -nologo

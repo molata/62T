@@ -530,10 +530,10 @@ void HIT_par_initial(void)
 //				break;
 //				case 8809://位置环增益Pn009
 				HIT_positon_Kp_int_float = 1;//(float)HIT_iic_word_rec_short;
-				HIT_positon_Kp_int_float = HIT_positon_Kp_int_float/10;
+				HIT_positon_Kp_int_float = HIT_positon_Kp_int_float/100000;///100000;
 //				break;
 //				case 7604://HIT_run_mode  Fn004
-				HIT_run_mode = 28;//6;//18;//19;//18;//6;//1;//18;//1;//8;//(float)HIT_iic_word_rec_short;//1;//(float)HIT_iic_word_rec_short;
+				HIT_run_mode = 38;//28;//6;//18;//19;//18;//6;//1;//18;//1;//8;//(float)HIT_iic_word_rec_short;//1;//(float)HIT_iic_word_rec_short;
 //				break;
 //				case 7607://Fn007
 				HIT_sitadf_int = 0x7003;//0x72ef;//0x7330;//5854;//29410;//100;//(int)HIT_iic_word_rec_short;

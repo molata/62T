@@ -3,15 +3,15 @@
 [DATABASE_VERSION]
 "2.8" 
 [PROJECT_DETAILS]
-"HIT_U_phase_VER" "E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER" "E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_U_phase_VER.hwp" "RX" "Renesas RX Standard" "Application" "RX600" "RX62T" 
+"HIT_U_phase_VER" "E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER" "E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_U_phase_VER.hwp" "RX" "Renesas RX Standard" "Application" "RX600" "RX62T" 
 [INFORMATION]
 "No project information available" 
 [TOOL_CHAIN]
 "Renesas RX Standard Toolchain" "1.2.0.0" 
 [CONFIGURATIONS]
-"Debug" "E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\Debug" 
-"Debug_RX600_E1_E20_SYSTEM" "E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\Debug_RX600_E1_E20_SYSTEM" 
-"Release" "E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\Release" 
+"Debug" "E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\Debug" 
+"Debug_RX600_E1_E20_SYSTEM" "E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\Debug_RX600_E1_E20_SYSTEM" 
+"Release" "E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\Release" 
 [BUILD_PHASES]
 "Renesas OptLinker" 1 
 "Renesas RX Assembler" 1 
@@ -117,97 +117,97 @@
 "Object file" "Renesas OptLinker" "Renesas RX Assembler" 
 "Object file" "Renesas OptLinker" "Renesas RX C/C++ Compiler" 
 [PROJECT_FILES]
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\CMT\R_PG_Timer_CMT_U0.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\CMT\R_PG_Timer_CMT_U1.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0_C0.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0_C1.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0_C2.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_2hundredto3hundredms.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_DA_out_fuc.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_intial_par" "User" "" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_intial_par.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_state.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBW_state.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_U_phase_VER.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_address.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_alarmnew.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_biaoding.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_check_table.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_check_table.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_check_table_ab.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_cmt0intfunc.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_cmt0intfunc.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_cmt1intfunc.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_common.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_controlsystem_servoon.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_current_pi.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_current_pi.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_hardwaresetup.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_hardwaresetup.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_highimp.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_identification.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_iocontrol.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_make_angle.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_make_angle.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_make_angleab.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_mechanicalpi.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_mechanicalpi.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_mode_10_bd.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_par_initial.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_par_initial.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_par_write_to_ee.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_parameter.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_positioncontrol.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_positioncontrol.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_read_sci_address.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_read_servo_state.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_send_ee_data.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_servo_on_first.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_servo_on_first.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_servofirst.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_servofirst.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_servoon.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_servoon.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_shouchaoqi.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_spacevectorcontrol.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_systemparameter.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_unittransfer.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_vectorcontrol.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_vectorcontrol.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_virtualphotoeletric.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_write_ee_addr.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_zeroto2hundredms.h" "User" "C header file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\dbsct.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\resetprg.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\sbrk.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" "User" "C source file" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\RIIC\R_PG_I2C_C0.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\SCI\R_PG_SCI_C2.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\SYSTEM\R_PG_Clock.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_CMT.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_GPT.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_INTC.c" "User" "AddFromPDG" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_SCI.c" "User" "AddFromPDG" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\CMT\R_PG_Timer_CMT_U0.c" "User" "AddFromPDG" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\CMT\R_PG_Timer_CMT_U1.c" "User" "AddFromPDG" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0.c" "User" "AddFromPDG" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0_C0.c" "User" "AddFromPDG" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0_C1.c" "User" "AddFromPDG" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0_C2.c" "User" "AddFromPDG" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_2hundredto3hundredms.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_DA_out_fuc.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_intial_par" "User" "" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_intial_par.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_state.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBW_state.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_U_phase_VER.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_address.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_alarmnew.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_biaoding.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_check_table.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_check_table.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_check_table_ab.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_cmt0intfunc.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_cmt0intfunc.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_cmt1intfunc.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_common.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_controlsystem_servoon.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_current_pi.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_current_pi.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_gpt0cmvintfunc.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_hardwaresetup.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_hardwaresetup.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_highimp.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_identification.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_iocontrol.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_make_angle.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_make_angle.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_make_angleab.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_mechanicalpi.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_mechanicalpi.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_mode_10_bd.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_par_initial.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_par_initial.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_par_write_to_ee.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_parameter.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_positioncontrol.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_positioncontrol.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_read_sci_address.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_read_servo_state.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_send_ee_data.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_servo_on_first.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_servo_on_first.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_servofirst.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_servofirst.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_servoon.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_servoon.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_shouchaoqi.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_spacevectorcontrol.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_systemparameter.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_unittransfer.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_vectorcontrol.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_vectorcontrol.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_virtualphotoeletric.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_write_ee_addr.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_zeroto2hundredms.h" "User" "C header file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\dbsct.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\resetprg.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\sbrk.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" "User" "C source file" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\RIIC\R_PG_I2C_C0.c" "User" "AddFromPDG" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\SCI\R_PG_SCI_C2.c" "User" "AddFromPDG" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\SYSTEM\R_PG_Clock.c" "User" "AddFromPDG" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_CMT.c" "User" "AddFromPDG" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_GPT.c" "User" "AddFromPDG" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_INTC.c" "User" "AddFromPDG" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_SCI.c" "User" "AddFromPDG" 2 
 [FOLDER]
 "AddFromPDG" "AddFromPDG" 
 "C header file" "C header file" 
@@ -217,223 +217,227 @@
 [ON_DEMAND_COMPONENTS_LOADED]
 [SYNC_SESSION_NAMES]
 [SESSIONS]
-"DefaultSession" "E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\DefaultSession.hsf" 0 
-"SessionRX600_E1_E20_SYSTEM" "E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\SessionRX600_E1_E20_SYSTEM.hsf" 0 
+"DefaultSession" "E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\DefaultSession.hsf" 0 
+"SessionRX600_E1_E20_SYSTEM" "E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\SessionRX600_E1_E20_SYSTEM.hsf" 0 
 [GENERAL_DATA_SESSION_DefaultSession]
 [GENERAL_DATA_SESSION_SessionRX600_E1_E20_SYSTEM]
 [OPTIONS_Debug_Renesas OptLinker]
-"Single Shot" "035d2cd756a91d10" 10 
+"Single Shot" "0e656dccb6b91d10" 10 
 [OPTIONS_Debug_Renesas RX Assembler]
 "Assembly source file" "0a3eecbf211bdc10" 9 
 "Linkage symbol file" "0a3eecbf211bdc10" 9 
 [OPTIONS_Debug_Renesas RX C/C++ Compiler]
-"C source file" "0a3eecbf211bdc10" 6 
+"C source file" "0a3eecbf211bdc10" 7 
 "C++ source file" "008c192576c6ec10" 5 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\CMT\R_PG_Timer_CMT_U0.c" "08f343f756a91d10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\CMT\R_PG_Timer_CMT_U1.c" "0118a3f756a91d10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0.c" "0fdfd2f756a91d10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0_C0.c" "09cfb1f756a91d10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0_C1.c" "02e322f756a91d10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0_C2.c" "073e72f756a91d10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "02d47ed756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_DA_out_fuc.c" "0904ded756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "0fc03fd756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "06009fd756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "0ea1ffd756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "065350e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_intial_par.c" "0c10b0e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_state.c" "04c111e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBW_state.c" "0e4871e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_U_phase_VER.c" "03a2d1e756a91d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_alarmnew.c" "0cb632e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_check_table.c" "03f592e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_cmt0intfunc.c" "0a25f2e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_cmt1intfunc.c" "00f153e756a91d10" 8 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "0721b3e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_current_pi.c" "004514e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "095974e756a91d10" 7 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "0452e4e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "0b8145e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_hardwaresetup.c" "07fca5e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_iocontrol.c" "036816e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_make_angle.c" "0a9776e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_mechanicalpi.c" "03bbd6e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_mode_10_bd.c" "0aea37e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_par_initial.c" "012a97e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_par_write_to_ee.c" "0c1308e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_positioncontrol.c" "04c468e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_read_sci_address.c" "0e4bc8e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_read_servo_state.c" "08d139e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "044d99e756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "0ec30ae756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "085a6ae756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "04c5dae756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_send_ee_data.c" "0bf43be756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_servo_on_first.c" "0760abe756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_servofirst.c" "01f60ce756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_servoon.c" "09986ce756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_shouchaoqi.c" "032fcce756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "0e183de756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_vectorcontrol.c" "073c9de756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "00500ee756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "08f16ee756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_write_ee_addr.c" "0116cee756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "0a2a2fe756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\dbsct.c" "01698fe756a91d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" "090befe756a91d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\resetprg.c" "0e5540f756a91d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\sbrk.c" "0422a0f756a91d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" "0aeef0f756a91d10" 4 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\RIIC\R_PG_I2C_C0.c" "016b64f756a91d10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\SCI\R_PG_SCI_C2.c" "0a2c04f756a91d10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\SYSTEM\R_PG_Clock.c" "012e51f756a91d10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_CMT.c" "0a7fc4f756a91d10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_GPT.c" "01be25f756a91d10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_INTC.c" "077b85f756a91d10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_SCI.c" "0eaae5f756a91d10" 3 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\CMT\R_PG_Timer_CMT_U0.c" "0a7055ecb6b91d10" 3 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\CMT\R_PG_Timer_CMT_U1.c" "0222b5ecb6b91d10" 3 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0.c" "00f9e4ecb6b91d10" 3 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0_C0.c" "0782c3ecb6b91d10" 3 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0_C1.c" "00a624ecb6b91d10" 3 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0_C2.c" "07d584ecb6b91d10" 3 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "08c7cfccb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_DA_out_fuc.c" "061830dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "0d4790dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "066bf0dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "0f7f51dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "0721c1dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_intial_par.c" "004522dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_state.c" "077482dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBW_state.c" "010be2dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_U_phase_VER.c" "0b8153dcb6b91d10" 4 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_alarmnew.c" "0518b3dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_check_table.c" "018324dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_cmt0intfunc.c" "0a9784dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_cmt1intfunc.c" "0590f4dcb6b91d10" 6 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "0f1755dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_current_pi.c" "09adb5dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "051926dcb6b91d10" 8 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "0c4886dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "056ce6dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_hardwaresetup.c" "0e7057dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_iocontrol.c" "0622b7dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_make_angle.c" "012b18dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_mechanicalpi.c" "0a3f78dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_mode_10_bd.c" "04c5e8dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_par_initial.c" "0fbe49dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_par_write_to_ee.c" "0b2ab9dcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_positioncontrol.c" "07952adcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_read_sci_address.c" "012c8adcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_read_servo_state.c" "0ba2fadcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "071e5bdcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "0fbfbbdcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "08d32cdcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "026a8cdcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_send_ee_data.c" "0b7eecdcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_servo_on_first.c" "05055ddcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_servofirst.c" "0170cddcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_servoon.c" "09122edcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_shouchaoqi.c" "0068aedcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "0b511fdcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_vectorcontrol.c" "04757fdcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "0efbdfdcb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "071040ecb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_write_ee_addr.c" "0fb1a0ecb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "094801ecb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\dbsct.c" "01f961ecb6b91d10" 4 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" "099bc1ecb6b91d10" 4 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\resetprg.c" "014d22ecb6b91d10" 4 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\sbrk.c" "09ee82ecb6b91d10" 4 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" "04e7f2ecb6b91d10" 4 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\RIIC\R_PG_I2C_C0.c" "05cc76ecb6b91d10" 3 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\SCI\R_PG_SCI_C2.c" "0b3616ecb6b91d10" 3 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\SYSTEM\R_PG_Clock.c" "0e6e53ecb6b91d10" 3 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_CMT.c" "0d6ed6ecb6b91d10" 3 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_GPT.c" "09d947ecb6b91d10" 3 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_INTC.c" "0019a7ecb6b91d10" 3 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_SCI.c" "08ba08ecb6b91d10" 3 
 [OPTIONS_Debug_Renesas RX C/C++ Library Generator]
 "Single Shot" "0a3eecbf211bdc10" 1 
 [OPTIONS_Debug_Renesas RX Configurator]
-"Single Shot" "01bdabc756a91d10" 11 
+"Single Shot" "0b2930bcb6b91d10" 11 
 [OPTIONS_Debug]
 "" 0 
 "[S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [V|VERSION|1] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|LANG|C] [B|RUNTIME|1] [B|CTYPE|0] [B|MATH|1] [B|MATHF|1] [B|STDARG|0] [B|STDIO|1] [B|STDLIB|1] [B|STRING|1] [B|IOS|0] [B|NEW|1] [B|COMPLEX|0] [B|CPPSTRING|0] [S|MODE|BUILD/CHANGED]" 1 
 "[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] [S|OUTPUTPATH|^"$(CONFIGDIR)^"] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|FINT_REGISTER|0]" 11 
 "[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|FINT_REGISTER|0]" 9 
-"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24]" 6 
-"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\Renesas\PDG2_proj\U_phase_VER^"|^"C:\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"C:\WorkSpace\HIT_U_phase_VER^"|^"C:\WorkSpace\HIT_U_phase_VER\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\i_src^"]" 4 
-"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"C:\WorkSpace\HIT_U_phase_VER^"|^"C:\WorkSpace\HIT_U_phase_VER\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\i_src^"]" 7 
-"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"C:\WorkSpace\HIT_U_phase_VER^"|^"C:\WorkSpace\HIT_U_phase_VER\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\i_src^"]" 2 
-"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"C:\WorkSpace\HIT_U_phase_VER^"|^"C:\WorkSpace\HIT_U_phase_VER\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\i_src^"]" 8 
-"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\i_src^"]" 3 
+"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24]" 7 
+"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\Renesas\PDG2_proj\U_phase_VER^"|^"C:\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"C:\WorkSpace\HIT_U_phase_VER^"|^"C:\WorkSpace\HIT_U_phase_VER\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\i_src^"|^"C:\WorkSpace\62T内框^"|^"C:\WorkSpace\62T内框\i_src^"|^"E:\20160421框架内外框电机和上位机调试程序\62T内框^"|^"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src^"]" 4 
+"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"C:\WorkSpace\HIT_U_phase_VER^"|^"C:\WorkSpace\HIT_U_phase_VER\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\i_src^"|^"C:\WorkSpace\62T内框^"|^"C:\WorkSpace\62T内框\i_src^"|^"E:\20160421框架内外框电机和上位机调试程序\62T内框^"|^"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src^"]" 8 
+"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\pro shanghai final 20khz\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\30电机\100v150a-2014-10-29\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\100v150a-7za40\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"C:\WorkSpace\HIT_U_phase_VER^"|^"C:\WorkSpace\HIT_U_phase_VER\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\i_src^"|^"C:\WorkSpace\62T内框^"|^"C:\WorkSpace\62T内框\i_src^"|^"E:\20160421框架内外框电机和上位机调试程序\62T内框^"|^"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src^"]" 2 
+"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER^"|^"C:\WorkSpace\倍频_25us\Renesas\PDG2_proj\U_phase_VER\i_src^"|^"D:\HIT_U_phase_VER^"|^"D:\HIT_U_phase_VER\i_src^"|^"C:\WorkSpace\HIT_U_phase_VER^"|^"C:\WorkSpace\HIT_U_phase_VER\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\HIT_U_phase_VER5\i_src^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框^"|^"E:\实验室资料\实验室项目\207项目\主控板调试\62T内框\i_src^"|^"C:\WorkSpace\62T内框^"|^"C:\WorkSpace\62T内框\i_src^"|^"E:\20160421框架内外框电机和上位机调试程序\62T内框^"|^"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src^"]" 6 
+"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LISTFILE|0] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|INCLUDE|^"E:\20160421框架内外框电机和上位机调试程序\62T内框^"|^"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src^"]" 3 
 "[V|VERSION|1] [S|LANG|CPP] [B|SJIS|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DEBUG|1] [B|SIZE|1] [B|MAP|0] [I|INLINE|100] [I|LOOP|2] [S|MISRA2004|ALL] [S|MISRA2004RULEFILE|^"$(CONFIGDIR)\$(PROJECTNAME).rde^"] [S|CPU|RX600] [S|BASE|00000000=NONE] [I|PID|16]
 " 5 
 "[V|VERSION|6] [S|INPUTLIBRARY|^"C:\Renesas\PDG2\lib\RX62T\RX62T_library_LQFP_64.lib^"|^"D:\Renesas\PDG2\lib\RX62T\RX62T_library_LQFP_64.lib^"] [S|FORM|STYPE] [S|BYTE_COUNT_VALUE|FF] [B|DEBUG|1] [S|ROM|(D,R)|(D_1,R_1)|(D_2,R_2)] [S|CRC|NONE|DEFAULT|00000000] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [S|SHOW|METHODCUSTOM|] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] [I|SPACE|^"FF^"] [B|OPTIMIZE|0] [S|START|B_1,R_1,B_2,R_2,B,R,SU,SI(01000)|PResetPRG(0FFFC8000)|C_1,C_2,C,C$*,D_1,D_2,D,P,PIntPRG,W*,L(0FFFC8100)|FIXEDVECT(0FFFFFFD0)] [S|MEMORY|HIGH]" 10 
 [EXCLUDED_FILES_Debug]
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" 
 [LINKAGE_ORDER_Debug]
 [GENERAL_DATA_CONFIGURATION_Debug]
 [OPTIONS_Debug_RX600_E1_E20_SYSTEM_Renesas OptLinker]
-"Single Shot" "02552cc756a91d10" 5 
+"Single Shot" "0cc0b0bcb6b91d10" 5 
 [OPTIONS_Debug_RX600_E1_E20_SYSTEM_Renesas RX Assembler]
 "Assembly source file" "0a3eecbf211bdc10" 4 
 "Linkage symbol file" "0a3eecbf211bdc10" 4 
 [OPTIONS_Debug_RX600_E1_E20_SYSTEM_Renesas RX C/C++ Compiler]
 "C source file" "0a3eecbf211bdc10" 2 
 "C++ source file" "008c192576c6ec10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\CMT\R_PG_Timer_CMT_U0.c" "0f698eb756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\CMT\R_PG_Timer_CMT_U1.c" "03f760c756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0.c" "0a78acb756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0_C0.c" "0f5f07b756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0_C1.c" "0109e8b756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0_C2.c" "08decab756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_DA_out_fuc.c" "025fbcddde96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "00ce68b06bebec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "00205cfc2f96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "00205cfc2f96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_intial_par.c" "0f8ef489bcb6ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_state.c" "00205cfc2f96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBW_state.c" "03ea11ca97a6ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_U_phase_VER.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_alarmnew.c" "04f3012ffb7bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_check_table.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_cmt0intfunc.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_cmt1intfunc.c" "0b818159f4581d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_current_pi.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "00d7aff8e2e30d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_hardwaresetup.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_iocontrol.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_make_angle.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_mechanicalpi.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_mode_10_bd.c" "029d27b77c1cec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_par_initial.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_par_write_to_ee.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_positioncontrol.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_read_sci_address.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_read_servo_state.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "02edc59e6486ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "07ab91307776ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "0f5747dcbb76ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "01d335dbab76ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_send_ee_data.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_servo_on_first.c" "0834db41715cdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_servofirst.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_servoon.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_shouchaoqi.c" "0b99e8f7ac3bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "00f917661a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_vectorcontrol.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "0fe34d321a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_write_ee_addr.c" "0b8fc3e11a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\dbsct.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\resetprg.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\sbrk.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\RIIC\R_PG_I2C_C0.c" "0e4c24c756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\SCI\R_PG_SCI_C2.c" "077642c756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\SYSTEM\R_PG_Clock.c" "053225b756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_CMT.c" "070716c756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_GPT.c" "09a0f7c756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_INTC.c" "0e91d9c756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_SCI.c" "01bdabc756a91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\CMT\R_PG_Timer_CMT_U0.c" "0eeba2acb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\CMT\R_PG_Timer_CMT_U1.c" "05c194acb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0.c" "0bdfc0acb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0_C0.c" "03071b9cb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0_C1.c" "0d240d9cb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0_C2.c" "057cee9cb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_DA_out_fuc.c" "025fbcddde96ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "00ce68b06bebec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "0118168f0a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "00205cfc2f96ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "00205cfc2f96ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_intial_par.c" "0f8ef489bcb6ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_state.c" "00205cfc2f96ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBW_state.c" "03ea11ca97a6ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_U_phase_VER.c" "0a3eecbf211bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_alarmnew.c" "04f3012ffb7bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_check_table.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_cmt0intfunc.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_cmt1intfunc.c" "0b818159f4581d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_current_pi.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "00d7aff8e2e30d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "0118168f0a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_hardwaresetup.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_iocontrol.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_make_angle.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_mechanicalpi.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_mode_10_bd.c" "029d27b77c1cec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_par_initial.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_par_write_to_ee.c" "0118168f0a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_positioncontrol.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_read_sci_address.c" "0118168f0a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_read_servo_state.c" "0118168f0a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "02edc59e6486ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "07ab91307776ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "0f5747dcbb76ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "01d335dbab76ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_send_ee_data.c" "0118168f0a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_servo_on_first.c" "0834db41715cdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_servofirst.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_servoon.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_shouchaoqi.c" "0b99e8f7ac3bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "00f917661a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_vectorcontrol.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "0fe34d321a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_write_ee_addr.c" "0b8fc3e11a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\dbsct.c" "0a3eecbf211bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" "0a3eecbf211bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\resetprg.c" "0a3eecbf211bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\sbrk.c" "0a3eecbf211bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" "0a3eecbf211bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\RIIC\R_PG_I2C_C0.c" "0e5f98acb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\SCI\R_PG_SCI_C2.c" "096eb6acb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\SYSTEM\R_PG_Clock.c" "02c8199cb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_CMT.c" "088c8aacb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_GPT.c" "0d7d6cacb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_INTC.c" "027e4eacb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_SCI.c" "0b2930bcb6b91d10" 2 
 [OPTIONS_Debug_RX600_E1_E20_SYSTEM_Renesas RX C/C++ Library Generator]
 "Single Shot" "0a3eecbf211bdc10" 1 
 [OPTIONS_Debug_RX600_E1_E20_SYSTEM_Renesas RX Configurator]
-"Single Shot" "01bdabc756a91d10" 6 
+"Single Shot" "0b2930bcb6b91d10" 6 
 [OPTIONS_Debug_RX600_E1_E20_SYSTEM]
 "" 0 
 "[S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [V|VERSION|1] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|LANG|C] [B|RUNTIME|1] [B|CTYPE|0] [B|MATH|1] [B|MATHF|1] [B|STDARG|0] [B|STDIO|1] [B|STDLIB|1] [B|STRING|1] [B|IOS|0] [B|NEW|1] [B|COMPLEX|0] [B|CPPSTRING|0] [S|MODE|BUILD/CHANGED]" 1 
@@ -447,79 +451,79 @@
 [LINKAGE_ORDER_Debug_RX600_E1_E20_SYSTEM]
 [GENERAL_DATA_CONFIGURATION_Debug_RX600_E1_E20_SYSTEM]
 [OPTIONS_Release_Renesas OptLinker]
-"Single Shot" "02552cc756a91d10" 5 
+"Single Shot" "0cc0b0bcb6b91d10" 5 
 [OPTIONS_Release_Renesas RX Assembler]
 "Assembly source file" "0a3eecbf211bdc10" 4 
 "Linkage symbol file" "0a3eecbf211bdc10" 4 
 [OPTIONS_Release_Renesas RX C/C++ Compiler]
 "C source file" "0a3eecbf211bdc10" 2 
 "C++ source file" "008c192576c6ec10" 3 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\CMT\R_PG_Timer_CMT_U0.c" "0f698eb756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\CMT\R_PG_Timer_CMT_U1.c" "03f760c756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0.c" "0a78acb756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0_C0.c" "0f5f07b756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0_C1.c" "0109e8b756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\GPT\R_PG_Timer_GPT_U0_C2.c" "08decab756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_DA_out_fuc.c" "025fbcddde96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "00ce68b06bebec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "00205cfc2f96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "00205cfc2f96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_intial_par.c" "0f8ef489bcb6ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBC_state.c" "00205cfc2f96ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_OBW_state.c" "03ea11ca97a6ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_U_phase_VER.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_alarmnew.c" "04f3012ffb7bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_check_table.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_cmt0intfunc.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_cmt1intfunc.c" "0b818159f4581d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_current_pi.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "00d7aff8e2e30d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_hardwaresetup.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_iocontrol.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_make_angle.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_mechanicalpi.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_mode_10_bd.c" "029d27b77c1cec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_par_initial.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_par_write_to_ee.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_positioncontrol.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_read_sci_address.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_read_servo_state.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "02edc59e6486ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "07ab91307776ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "0f5747dcbb76ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "01d335dbab76ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_send_ee_data.c" "0118168f0a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_servo_on_first.c" "0834db41715cdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_servofirst.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_servoon.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_shouchaoqi.c" "0b99e8f7ac3bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "00f917661a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_vectorcontrol.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "0fe34d321a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_write_ee_addr.c" "0b8fc3e11a21ec10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "07602193311bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\dbsct.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\intprg.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\resetprg.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\sbrk.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\HIT_U_phase_VER\vecttbl.c" "0a3eecbf211bdc10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\RIIC\R_PG_I2C_C0.c" "0e4c24c756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\SCI\R_PG_SCI_C2.c" "077642c756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\SYSTEM\R_PG_Clock.c" "053225b756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_CMT.c" "070716c756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_GPT.c" "09a0f7c756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_INTC.c" "0e91d9c756a91d10" 2 
-"E:\实验室资料\实验室项目\207项目\主控板调试\投机取巧的程序\62T\i_src\Interrupt_SCI.c" "01bdabc756a91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\CMT\R_PG_Timer_CMT_U0.c" "0eeba2acb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\CMT\R_PG_Timer_CMT_U1.c" "05c194acb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0.c" "0bdfc0acb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0_C0.c" "03071b9cb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0_C1.c" "0d240d9cb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\GPT\R_PG_Timer_GPT_U0_C2.c" "057cee9cb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_2hundredto3hundredms.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_DA_out_fuc.c" "025fbcddde96ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_DA_trans_fuc.c" "00ce68b06bebec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_Fn_read_ee_addr_fnc.c" "0118168f0a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_intail_par_obser.c" "00205cfc2f96ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_intial_cal.c" "00205cfc2f96ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_intial_par.c" "0f8ef489bcb6ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBC_state.c" "00205cfc2f96ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_OBW_state.c" "03ea11ca97a6ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_U_phase_VER.c" "0a3eecbf211bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_alarmnew.c" "04f3012ffb7bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_check_table.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_cmt0intfunc.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_cmt1intfunc.c" "0b818159f4581d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_controlsystem_servoon.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_current_pi.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_fluxweakingcontrol.c" "00d7aff8e2e30d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_get_sci_buf_data.c" "0118168f0a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_gpt0cmvintfunc.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_hardwaresetup.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_iocontrol.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_make_angle.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_mechanicalpi.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_mode_10_bd.c" "029d27b77c1cec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_par_initial.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_par_write_to_ee.c" "0118168f0a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_positioncontrol.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_read_sci_address.c" "0118168f0a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_read_servo_state.c" "0118168f0a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_cal_gain.c" "02edc59e6486ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_fuc.c" "07ab91307776ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_iref.c" "0f5747dcbb76ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_ref_lpf_pref.c" "01d335dbab76ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_send_ee_data.c" "0118168f0a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_servo_on_first.c" "0834db41715cdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_servofirst.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_servoon.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_shouchaoqi.c" "0b99e8f7ac3bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_shouchaoqi_con_servon.c" "00f917661a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_vectorcontrol.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_virtualphotoeletric.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_write_U_angle_to_EE.c" "0fe34d321a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_write_ee_addr.c" "0b8fc3e11a21ec10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\HIT_zeroto2hundredms.c" "07602193311bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\dbsct.c" "0a3eecbf211bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\intprg.c" "0a3eecbf211bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\resetprg.c" "0a3eecbf211bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\sbrk.c" "0a3eecbf211bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\HIT_U_phase_VER\vecttbl.c" "0a3eecbf211bdc10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\RIIC\R_PG_I2C_C0.c" "0e5f98acb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\SCI\R_PG_SCI_C2.c" "096eb6acb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\SYSTEM\R_PG_Clock.c" "02c8199cb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_CMT.c" "088c8aacb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_GPT.c" "0d7d6cacb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_INTC.c" "027e4eacb6b91d10" 2 
+"E:\20160421框架内外框电机和上位机调试程序\62T内框\i_src\Interrupt_SCI.c" "0b2930bcb6b91d10" 2 
 [OPTIONS_Release_Renesas RX C/C++ Library Generator]
 "Single Shot" "0a3eecbf211bdc10" 1 
 [OPTIONS_Release_Renesas RX Configurator]
-"Single Shot" "01bdabc756a91d10" 6 
+"Single Shot" "0b2930bcb6b91d10" 6 
 [OPTIONS_Release]
 "" 0 
 "[S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [V|VERSION|1] [S|CPU|RX600] [S|ENDIAN|LITTLE] [S|ROUND|NEAREST] [S|DBL_SIZE|4] [B|SIGNED_CHAR|0] [B|SIGNED_BITFIELD|0] [S|BIT_ORDER|RIGHT] [S|FINT_REGISTER|0] [S|BRANCH|24] [S|LANG|C] [B|RUNTIME|1] [B|CTYPE|0] [B|MATH|1] [B|MATHF|1] [B|STDARG|0] [B|STDIO|1] [B|STDLIB|1] [B|STRING|1] [B|IOS|0] [B|NEW|1] [B|COMPLEX|0] [B|CPPSTRING|0] [S|MODE|BUILD/CHANGED]" 1 

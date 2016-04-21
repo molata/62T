@@ -201,7 +201,7 @@ void HIT_servoon()
 			}*/
 //			if((HIT_run_mode == 3)||(HIT_run_mode == 4)||(HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15))
 			
-			if((HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15))
+			if((HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15)||(HIT_run_mode == 38))
 			{
 				if((HIT_run_mode == 15)||(HIT_run_mode == 12))
 				{
@@ -257,7 +257,7 @@ void HIT_servoon()
 		HIT_speedlpf_out = HIT_speedlpf;    // ËÙ¶È×ª»»
  
 
-			if((HIT_run_mode == 2)||(HIT_run_mode == 5)||(HIT_run_mode == 7)||(HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15)||(HIT_run_mode == 18)||(HIT_run_mode == 28))
+			if((HIT_run_mode == 2)||(HIT_run_mode == 5)||(HIT_run_mode == 7)||(HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15)||(HIT_run_mode == 18)||(HIT_run_mode == 28)||(HIT_run_mode == 38))
 			{
 /*				if(HIT_run_mode == 7)
 				{
@@ -295,17 +295,19 @@ void HIT_servoon()
 				
 				if(HIT_run_mode == 28)
 				{
-					if(fpPC_to_motor_angle < 18 && fpPC_to_motor_angle > -18)
+					if((fpPC_to_motor_angle < 18) && (fpPC_to_motor_angle > -18) )
 					{
 						HIT_wone_re = fpPC_to_motor_angle;//HIT_we_re;
-					}
+						HIT_wone_re = HIT_wone_re/360*2*3.1415;
+					}//xg
 					
-					HIT_speedlpf_re = HIT_lpfv1A * HIT_speedlpf_re;
+					
+/*					HIT_speedlpf_re = HIT_lpfv1A * HIT_speedlpf_re;
 					HIT_speedlpf_re = HIT_speedlpf_re + HIT_lpfv1B * HIT_wone_re;
 					HIT_speedlpf_re = HIT_speedlpf_re + HIT_lpfv1B * (HIT_wtwo_re-HIT_speedlpf_re);
-					HIT_wtwo_re = HIT_wone_re;/*filter end*/ 
-					HIT_WLw_ref = HIT_speedlpf_re;	
-	//				HIT_WLw_ref = 0;//HIT_gyo_n_da;
+					HIT_wtwo_re = HIT_wone_re;*/ 
+					HIT_WLw_ref = HIT_wone_re;//HIT_speedlpf_re;//xg	
+//					HIT_WLw_ref = HIT_gyo_n_da;
 				}
 				HIT_mechanicalpi();
 				
@@ -316,7 +318,7 @@ void HIT_servoon()
 				//HIT_id_ref = 5;
 				HIT_iq_ref = 0;
 			}
-			if((HIT_run_mode == 6)||(HIT_run_mode == 2)||(HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15)||(HIT_run_mode == 18)||(HIT_run_mode == 28))
+			if((HIT_run_mode == 6)||(HIT_run_mode == 2)||(HIT_run_mode == 12)||(HIT_run_mode == 13)||(HIT_run_mode == 15)||(HIT_run_mode == 18)||(HIT_run_mode == 28)||(HIT_run_mode == 38))
 			{
 				HIT_id_ref = 0;
 //				HIT_fluxwenkingcontrol();
@@ -488,7 +490,7 @@ void HIT_servoon()
 //	RSPI0.SPSR.BIT.SPRF = 0;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    		if(HIT_qa ==  68000000)//15550020140107//155804)//1553)//288000000//36000000//106500///////20  1ms
+    		if(HIT_qa ==  11112000)//15550020140107//155804)//1553)//288000000//36000000//106500///////20  1ms
 			{
 			//	if(HIT_cur_test == 2)
 				{
@@ -509,7 +511,7 @@ void HIT_servoon()
 					
 				}
 			}
-			if(HIT_qa>=  68000001)//155805)//288000001//36000001//106501
+			if(HIT_qa>=  11112001)//155805)//288000001//36000001//106501
 			{
 				PORT7.DR.BIT.B1 = 0;    //20121030 night 20:31 add pingbi
 				PORT7.DR.BIT.B2 = 0;
@@ -525,7 +527,7 @@ void HIT_servoon()
 				GPT2.GTONCR.BIT.OAE = 0;   ////modify20141214
 				GPT2.GTONCR.BIT.OBE = 0;   ////modify20141214
 				GPT2.GTONCR.WORD = 0X0000;
-				HIT_qa = 68000000;//155804;//288000001;//36000001;//106501;	
+				HIT_qa = 11112000;//155804;//288000001;//36000001;//106501;	
 			}
 			else
 			{
